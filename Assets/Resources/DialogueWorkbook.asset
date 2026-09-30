@@ -1,0 +1,4575 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7394a5c51f6ea442aef1d88f053492e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sourceFile: Assets/Dialogue/DialogueTemplate.xlsx
+  rows:
+  - excelRow: 2
+    nextRow: 3
+    sequence: "\u5F00\u573A\u9192\u6765"
+    character: "\u65C1\u767D"
+    text: "\u6211\u4ECE\u5E8A\u4E0A\u9192\u6765\uFF0C\u597D\u50CF\u505A\u4E86\u4E00\u4E2A\u5F88\u957F\u5F88\u957F\u7684\u68A6\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 3
+    nextRow: 4
+    sequence: "\u5F00\u573A\u9192\u6765"
+    character: "\u65C1\u767D"
+    text: "\u65F6\u949F\u6EF4\u6EF4\u7B54\u7B54\u5730\u8D70\u7740\uFF0C\u6574\u4E2A\u623F\u95F4\u91CC\u53EA\u6709\u98CE\u62C2\u8FC7\u7A97\u5E18\u7684\u58F0\u97F3\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 4
+    nextRow: 5
+    sequence: "\u5F00\u573A\u9192\u6765"
+    character: "\u65C1\u767D"
+    text: "\u6211\u8BD5\u56FE\u7406\u6E05\u6DF7\u4E71\u7684\u8111\u6D77\uFF0C\u597D\u56DE\u60F3\u8D77\u67D0\u4EF6\u88AB\u9057\u5FD8\u7684\u4E8B\u60C5\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 5
+    nextRow: 6
+    sequence: "\u5F00\u573A\u9192\u6765"
+    character: "\u65C1\u767D"
+    text: "\u4F46\u662F\u65E0\u8BBA\u5982\u4F55\u53BB\u56DE\u5FC6\uFF0C\u4E5F\u59CB\u7EC8\u4E00\u70B9\u90FD\u8BB0\u4E0D\u8D77\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 6
+    nextRow: 7
+    sequence: "\u5F00\u573A\u9192\u6765"
+    character: "\u65C1\u767D"
+    text: "\u90A3\u4EF6\u2026\u5F88\u91CD\u8981\u7684\u4E8B\u60C5\u2026"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 7
+    nextRow: 8
+    sequence: "\u5F00\u573A\u9192\u6765"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6B27\u5C3C\u9171\uFF0C\u4ECA\u5929\u662F\u5F00\u5B66\u7684\u65E5\u5B50\u4E86\u54E6\uFF01\u522B\u8FDF\u5230\u54AF~\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 8
+    nextRow: 9
+    sequence: "\u5F00\u573A\u9192\u6765"
+    character: "\u65C1\u767D"
+    text: "\u5367\u5BA4\u5916\u54CD\u8D77\u5973\u5B69\u94F6\u94C3\u822C\u7684\u58F0\u97F3\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 9
+    nextRow: 10
+    sequence: "\u5F00\u573A\u9192\u6765"
+    character: "\u65C1\u767D"
+    text: "\u6211\u722C\u8D77\u6765\uFF0C\u7A7F\u597D\u8863\u670D\uFF0C\u8D70\u51FA\u5367\u5BA4\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 10
+    nextRow: 11
+    sequence: "\u996D\u684C\u4E0A"
+    character: "\u65C1\u767D"
+    text: "\u8FCE\u9762\u770B\u89C1\u7684\u662F\u6211\u53EF\u7231\u7684\u59B9\u59B9\uFF0C\u684C\u4E0A\u5DF2\u7ECF\u6446\u597D\u4E86\u65E9\u9910\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 11
+    nextRow: 0
+    sequence: "\u996D\u684C\u4E0A"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u8BF6\uFF0C\u6B27\u5C3C\u9171\uFF0C\u600E\u4E48\u5566\uFF1F\u8138\u8272\u4E0D\u592A\u597D\u7684\u6837\u5B50\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices:
+    - text: "\u4ECA\u5929\u5F00\u5B66\uFF1F\u6211\u8981\u53BB\u54EA\uFF1F"
+      targetRow: 12
+    - text: "\u6211\u4E0D\u60F3\u53BB\u4E0A\u5B66\uFF0C\u6211\u60F3\u966A\u4F60\u3002"
+      targetRow: 19
+    - text: "\u4F60\u662F\u8C01\uFF1F"
+      targetRow: 26
+    changes: []
+  - excelRow: 12
+    nextRow: 13
+    sequence: "\u9009\u62E9A\u8DEF\u7EBF"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u662F\u5462\uFF0C\u6B27\u5C3C\u9171\u4E0A\u7684\u5B66\u6821\uFF0C\u53EB\u9752\u9F99\u5C71\u9AD8\u7EA7\u4E2D\u5B66\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 13
+    nextRow: 14
+    sequence: "\u9009\u62E9A\u8DEF\u7EBF"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u9752\u9F99\u5C71\uFF1F\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 14
+    nextRow: 15
+    sequence: "\u9009\u62E9A\u8DEF\u7EBF"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u55EF\u2026\u8BF4\u8D77\u6765\u8FD9\u4E2A\u540D\u5B57\u786E\u5B9E\u633A\u5947\u602A\u7684\uFF0C\u660E\u660E\u53EA\u662F\u4E00\u6761\u8857\uFF0C\u5374\u53EB\u505A\u5C71\u4EC0\u4E48\u7684\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 15
+    nextRow: 16
+    sequence: "\u9009\u62E9A\u8DEF\u7EBF"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u5B66\u6821\u5728\u4E00\u6761\u8857\u4E0A\u5417\uFF1F\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 16
+    nextRow: 17
+    sequence: "\u9009\u62E9A\u8DEF\u7EBF"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u55EF\u5462\u3002\u8FD9\u6761\u8857\u53EB\u9752\u9F99\u5C71\uFF0C\u4E5F\u8BB8\u662F\u56E0\u4E3A\u662F\u4E45\u8FDC\u4EE5\u6765\u7684\u4F20\u7EDF\u5427\uFF0C\u542C\u8BF4\u662F\u4E24\u4E2A\u5F88\u6709\u540D\u7684\u4EBA\u547D\u540D\u7684\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 17
+    nextRow: 18
+    sequence: "\u9009\u62E9A\u8DEF\u7EBF"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u9752\u9F99\u5C71\u9AD8\u7EA7\u4E2D\u5B66\u5417\u2026\u53EF\u662F\u6211\u4E0D\u77E5\u9053\u5177\u4F53\u5728\u54EA\u91CC\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 18
+    nextRow: 38
+    sequence: "\u9009\u62E9A\u8DEF\u7EBF"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6211\u77E5\u9053\u6B27\u5C3C\u9171\u4E5F\u8BB8\u4E0D\u77E5\u9053\u5730\u65B9\uFF0C\u6240\u4EE5\u4E00\u4F1A\u5C31\u7531\u6211\u6765\u5E26\u6B27\u5C3C\u9171\u53BB\u3002\u73B0\u5728\u5C31\u5148\u5750\u4E0B\u6765\u597D\u597D\u5403\u65E9\u9910\u5427~\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 19
+    nextRow: 20
+    sequence: "\u9009\u62E9B\u8DEF\u7EBF"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u8BF6\uFF1F\u2026\u6CA1\u2026\u6CA1\u8FD9\u4E2A\u5FC5\u8981\u5566\uFF01\u4E0A\u5B66\u8FD9\u4E48\u91CD\u8981\u7684\u4E8B\uFF0C\u600E\u4E48\u80FD\u4E0D\u53BB\u5462\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 20
+    nextRow: 21
+    sequence: "\u9009\u62E9B\u8DEF\u7EBF"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u4E3A\u4EC0\u4E48\uFF0C\u603B\u662F\u4E00\u5B9A\u8981\u53BB\u5462\uFF1F\u2026\u4ECE\u5E7C\u513F\u56ED\u4E5F\u662F\uFF0C\u5C0F\u5B66\u4E5F\u662F\uFF0C\u521D\u4E2D\u4E5F\u662F\u2026\u6211\u66F4\u60F3\u548C\u4F60\u5728\u4E00\u8D77\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 21
+    nextRow: 22
+    sequence: "\u9009\u62E9B\u8DEF\u7EBF"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u5916\u9762\u7684\u4E16\u754C\uFF0C\u592A\u590D\u6742\u4E86\uFF0C\u6211\u4EEC\u4E4B\u95F4\u7684\u4E00\u5207\uFF0C\u90FD\u4F1A\u88AB\u7834\u574F\u6389\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 22
+    nextRow: 23
+    sequence: "\u9009\u62E9B\u8DEF\u7EBF"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u4E0D\u2026\u4E0D\u4F1A\u6709\u90A3\u4E00\u5929\u7684\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 23
+    nextRow: 24
+    sequence: "\u9009\u62E9B\u8DEF\u7EBF"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u65E0\u8BBA\u600E\u6837\uFF0C\u6211\u90FD\u662F\u6B27\u5C3C\u9171\u7684\u2026\u6CA1\u6709\u4EBA\u80FD\u5C06\u6211\u4EEC\u5206\u5F00\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 24
+    nextRow: 25
+    sequence: "\u9009\u62E9B\u8DEF\u7EBF"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u7EAF\u4E43\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 25
+    nextRow: 38
+    sequence: "\u9009\u62E9B\u8DEF\u7EBF"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u597D\u5566\u5FEB\u5403\u65E9\u9910\u5427\uFF01\u4E00\u4F1A\u6211\u4EEC\u4E00\u8D77\u53BB\u62A5\u9053\u54E6~\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: "\u59B9\u597D\u611F+20"
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes:
+    - variable: 1
+      add: 1
+      value: 20
+  - excelRow: 26
+    nextRow: 27
+    sequence: "\u9009\u62E9C\u8DEF\u7EBF"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6B27\u5C3C\u9171\u4F60\u5728\u8BF4\u4EC0\u4E48\u5440\uFF0C\u96BE\u9053\u75C5\u8FD8\u6CA1\u597D\u5417\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 27
+    nextRow: 28
+    sequence: "\u9009\u62E9C\u8DEF\u7EBF"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u4EC0\u4E48\u75C5\uFF1F\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 28
+    nextRow: 29
+    sequence: "\u9009\u62E9C\u8DEF\u7EBF"
+    character: "\u65C1\u767D"
+    text: "\u6211\u654F\u9510\u5730\u611F\u89C9\u5230\u4EC0\u4E48\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 29
+    nextRow: 30
+    sequence: "\u9009\u62E9C\u8DEF\u7EBF"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u55EF\u2026\u6CA1\u4EC0\u4E48\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 30
+    nextRow: 31
+    sequence: "\u9009\u62E9C\u8DEF\u7EBF"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u544A\u8BC9\u6211\uFF0C\u7EAF\u4E43\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 31
+    nextRow: 32
+    sequence: "\u9009\u62E9C\u8DEF\u7EBF"
+    character: "\u65C1\u767D"
+    text: "\u6211\u7528\u4E86\u7A0D\u5FAE\u4E25\u5389\u7684\u8BED\u6C14\uFF0C\u59B9\u59B9\u7684\u773C\u795E\u98D8\u5FFD\u4E0D\u5B9A\uFF0C\u4F3C\u4E4E\u5E95\u6C14\u4E0D\u8DB3\u7684\u6837\u5B50\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 32
+    nextRow: 33
+    sequence: "\u9009\u62E9C\u8DEF\u7EBF"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u5176\u5B9E\u2026\u6B27\u5C3C\u9171\u4E4B\u524D\u4E00\u76F4\u4F4F\u9662\u2026\u6628\u5929\u624D\u56DE\u5230\u5BB6\u2026\u4F46\u6211\u4E5F\u4E0D\u77E5\u9053\u6B27\u5C3C\u9171\u60A3\u4E86\u4EC0\u4E48\u75C5\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 33
+    nextRow: 34
+    sequence: "\u9009\u62E9C\u8DEF\u7EBF"
+    character: "\u65C1\u767D"
+    text: "\u662F\u8FD9\u6837\u5417\uFF1F\u8FD9\u5C31\u662F\u6211\u7684\u8111\u6D77\u4E00\u7247\u6DF7\u6C8C\u7684\u539F\u56E0\u5417\uFF1F"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 34
+    nextRow: 35
+    sequence: "\u9009\u62E9C\u8DEF\u7EBF"
+    character: "\u65C1\u767D"
+    text: "\u6211\u51DD\u89C6\u7740\u5979\uFF0C\u5979\u9F13\u8D77\u52C7\u6C14\uFF0C\u5C0F\u5FC3\u7FFC\u7FFC\u5730\u4E0E\u6211\u5BF9\u89C6\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 35
+    nextRow: 36
+    sequence: "\u9009\u62E9C\u8DEF\u7EBF"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u90A3\u2026\u6B27\u5C3C\u9171\u2026\u53EF\u4EE5\u597D\u597D\u5750\u4E0B\u6765\u5403\u4E1C\u897F\u4E86\u5417\uFF1F\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 36
+    nextRow: 37
+    sequence: "\u9009\u62E9C\u8DEF\u7EBF"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u55EF\u2026\u7EAF\u4E43\uFF0C\u5B66\u6821\u5728\u54EA\u91CC\uFF1F\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 37
+    nextRow: 38
+    sequence: "\u9009\u62E9C\u8DEF\u7EBF"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u55EF\uFF0C\u6B27\u5C3C\u9171\u53EF\u80FD\u4E0D\u77E5\u9053\u5730\u65B9\uFF0C\u6240\u4EE5\u4E00\u4F1A\u6211\u6765\u966A\u6B27\u5C3C\u9171\u53BB\u5C31\u597D\u5566~\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: San+1
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes:
+    - variable: 0
+      add: 1
+      value: 1
+  - excelRow: 38
+    nextRow: 39
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u7EAF\u4E43\uFF0C\u4F60\u4E0D\u5403\u5417\uFF1F\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 39
+    nextRow: 40
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6B27\u5C3C\u9171\u8D77\u7684\u592A\u665A\u4E86\uFF0C\u6211\u5DF2\u7ECF\u5403\u5B8C\u5566~\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 40
+    nextRow: 41
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u2026\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 41
+    nextRow: 42
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u603B\u611F\u89C9\u6B27\u5C3C\u9171\u8FD8\u6709\u5F88\u591A\u7591\u60D1\u5462\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 42
+    nextRow: 43
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u55EF\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 43
+    nextRow: 44
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u4EC0\u4E48\u4E8B\u60C5\u90FD\u53EF\u4EE5\u544A\u8BC9\u59B9\u59B9\u6211\u54E6\uFF0C\u7EAF\u4E43\u4F1A\u4E3A\u6B27\u5C3C\u9171\u5206\u5FE7\u7684~\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 44
+    nextRow: 45
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u5176\u5B9E\u2026\u4E3A\u4EC0\u4E48\u7EAF\u4E43\u7684\u5934\u53D1\u8FD9\u4E48\u767D\u5462\uFF1F\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 45
+    nextRow: 46
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u56E0\u4E3A\u7ECF\u5E38\u4E3A\u6B27\u5C3C\u9171\u53D1\u6101\uFF0C\u5C31\u53D8\u767D\u5566\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 46
+    nextRow: 47
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u90A3\u4E3A\u4EC0\u4E48\u7EAF\u4E43\u7684\u5934\u53D1\u8FD9\u4E48\u957F\u5462\uFF1F\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 47
+    nextRow: 48
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u56E0\u4E3A\u4E00\u76F4\u7B49\u7740\u6B27\u5C3C\u9171\uFF0C\u5C31\u957F\u957F\u5566\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 48
+    nextRow: 49
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u65C1\u767D"
+    text: "\u660E\u660E\u662F\u4E00\u76F4\u5728\u4E00\u8D77\u7684\u5144\u59B9\uFF0C\u5374\u8BF4\u7740\u4E45\u522B\u91CD\u9022\u7684\u8BDD\uFF0C\u6211\u65E0\u6CD5\u5F62\u5BB9\u90A3\u79CD\u602A\u5F02\u7684\u611F\u89C9\uFF0C\u4E5F\u8BB8\u5979\u4E5F\u662F\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 49
+    nextRow: 50
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u65C1\u767D"
+    text: "\u5728\u6A21\u7CCA\u7684\u8FC7\u5F80\uFF0C\u6211\u548C\u7EAF\u4E43\u4E4B\u95F4\u7A76\u7ADF\u53D1\u751F\u4E86\u4EC0\u4E48\u4E8B\uFF0C\u6211\u60F3\u90FD\u662F\u96BE\u4EE5\u8A00\u8868\u7684\u79D8\u5BC6\u3002\u8981\u662F\u5979\u771F\u7684\u662F\u56E0\u4E3A\u8FD9\u79CD\u539F\u56E0\u767D\u4E86\u5934\u53D1\uFF0C\u90A3\u6211\u53EF\u771F\u662F\u7F6A\u5B7D\u6DF1\u91CD\u5462\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 50
+    nextRow: 51
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u55EF\u2026\u5F88\u53EF\u7231\u54E6\uFF0C\u7EAF\u4E43\u2026\u300D\uFF08\u7EAF\u4E43\u8138\u7EA2\uFF09"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 51
+    nextRow: 52
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u545C\u2026\u597D\u5566\uFF0C\u65E9\u9910\u90FD\u8981\u51C9\u4E86\uFF0C\u5FEB\u5C1D\u5C1D\u5427\uFF01\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 52
+    nextRow: 53
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u65C1\u767D"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 53
+    nextRow: 54
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u65C1\u767D"
+    text: "\u6211\u6E05\u9664\u6742\u5FF5\uFF0C\u62FF\u8D77\u6446\u653E\u5F97\u6574\u6574\u9F50\u9F50\u7684\u7B77\u5B50\uFF0C\u5C06\u98DF\u7269\u9001\u8FDB\u53E3\u4E2D\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 54
+    nextRow: 55
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u5514\uFF01\u2026\u300D\uFF08\u5C4F\u5E55\u6296\u52A8\uFF09"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: Shake
+    backgroundFile: 
+    effectDuration: 0.5
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 55
+    nextRow: 56
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u65C1\u767D"
+    text: "\u7EAF\u4E43\u505A\u7684\u65E9\u9910\u4E0D\u4F46\u770B\u8D77\u6765\u5F88\u6709\u59FF\u8272\uFF0C\u5473\u9053\u4E5F\u76F8\u5F53\u60CA\u8273\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 56
+    nextRow: 57
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u65C1\u767D"
+    text: "\u714E\u86CB\u723D\u6ED1\u53EF\u53E3\uFF0C\u725B\u6392\u5916\u7126\u91CC\u5AE9\uFF0C\u70B9\u7F00\u7684\u897F\u5170\u82B1\u53C8\u5F88\u597D\u5730\u89E3\u4E86\u6CB9\u817B\u3002\u9152\u5E97\u91CC\u7684\u5927\u53A8\u6240\u505A\u7684\u7F8E\u5473\u4F73\u80B4\uFF0C\u5927\u6982\u4E5F\u4E0D\u8FC7\u5982\u6B64\u4E86\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 57
+    nextRow: 58
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u597D\u5389\u5BB3\uFF01\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 58
+    nextRow: 59
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u65C1\u767D"
+    text: "\u6211\u5982\u72FC\u541E\u864E\u54BD\uFF0C\u53C8\u540E\u6094\u6CA1\u6709\u66F4\u4ED4\u7EC6\u5730\u54C1\u5C1D\u5473\u9053\u3002\u4EC5\u4EC5\u53EA\u662F\u666E\u901A\u7684\u98DF\u6750\u800C\u5DF2\uFF0C\u7ECF\u8FC7\u59B9\u59B9\u7684\u7CBE\u5FC3\u70F9\u8C03\uFF0C\u7ADF\u7136\u4E5F\u80FD\u4EE4\u6211\u56DE\u5473\u65E0\u7A77\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 59
+    nextRow: 60
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6162\u70B9~\u8FD8\u6709\u5462~\u300D\uFF08\u7EAF\u4E43\u7B11\uFF09"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 60
+    nextRow: 61
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u7EAF\u4E43\u662F\u600E\u4E48\u7EC3\u4E60\u6599\u7406\u7684\u5462\uFF1F\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 61
+    nextRow: 62
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u8BF6\uFF1F\u6211\u561B\u2026\u559C\u6B22\u7814\u7A76\u4E00\u4E9B\u98DF\u6750\u7684\u642D\u914D\uFF0C\u5E73\u65F6\u5927\u5BB6\u90FD\u719F\u89C6\u65E0\u7779\u7684\u4E1C\u897F\uFF0C\u4E5F\u662F\u80FD\u6210\u4E3A\u96BE\u5FD8\u7684\u7F8E\u5473\u7684\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 62
+    nextRow: 63
+    sequence: "\u4E00\u8D77\u5403\u996D"
+    character: "\u65C1\u767D"
+    text: "\u5403\u5B8C\u65E9\u9910\uFF0C\u59B9\u59B9\u7A0D\u5FAE\u6253\u626E\u4E86\u4E00\u4E0B\uFF0C\u633D\u7740\u6211\u7684\u624B\u81C2\u4E0A\u4E86\u8857\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 63
+    nextRow: 64
+    sequence: "\u4E0A\u5B66\u8DEF\u4E0A"
+    character: "\u65C1\u767D"
+    text: "\u6211\u597D\u50CF\u4ECE\u672A\u6765\u8FC7\u8FD9\u91CC\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 64
+    nextRow: 65
+    sequence: "\u4E0A\u5B66\u8DEF\u4E0A"
+    character: "\u65C1\u767D"
+    text: "\u770B\u4E0D\u6E05\u9762\u5BB9\u7684\u8DEF\u4EBA\u65C1\u82E5\u65E0\u4EBA\u5730\u8BF4\u7B11\u7740\uFF0C\u58F0\u97F3\u4F20\u5230\u6211\u7684\u8033\u6735\u91CC\u53D8\u6210\u6D51\u6D4A\u4E0D\u6E05\u7684\u79C1\u8BED\u3002\u4ED6\u4EEC\u6084\u7136\u65E0\u58F0\u5730\u51FA\u73B0\uFF0C\u53C8\u5728\u8857\u9053\u62D0\u89D2\u5904\u5F52\u5BC2\u65E0\u606F\uFF0C\u6CA1\u6709\u4EBA\u6CE8\u610F\u6211\u4EEC\uFF0C\u5B58\u5728\u90FD\u53D8\u5F97\u6DE1\u8584\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 65
+    nextRow: 66
+    sequence: "\u4E0A\u5B66\u8DEF\u4E0A"
+    character: "\u65C1\u767D"
+    text: "\u57CE\u5E02\uFF0C\u5982\u540C\u65F7\u91CE\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 66
+    nextRow: 67
+    sequence: "\u4E0A\u5B66\u8DEF\u4E0A"
+    character: "\u65C1\u767D"
+    text: "\u5B83\u51B7\u7136\u77D7\u7ACB\uFF0C\u9AD8\u50B2\u800C\u6C89\u9ED8\uFF0C\u5C31\u6A2A\u4E98\u5728\u6211\u9762\u524D\uFF0C\u76F4\u5230\u8FEB\u4F7F\u6211\u878D\u5165\u8FD9\u4E0E\u6211\u6BEB\u4E0D\u76F8\u5E72\u7684\u4E00\u5207\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 67
+    nextRow: 68
+    sequence: "\u4E0A\u5B66\u8DEF\u4E0A"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u592A\u9633\u2026\u662F\u4ECE\u90A3\u8FB9\u5347\u8D77\u7684\u5417\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 68
+    nextRow: 69
+    sequence: "\u4E0A\u5B66\u8DEF\u4E0A"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u662F\u554A\u2026\u547C\u2026\u4ECA\u5929\u7684\u98CE\u513F\uFF0C\u6709\u4E9B\u55A7\u56A3\u5462\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 69
+    nextRow: 70
+    sequence: "\u4E0A\u5B66\u8DEF\u4E0A"
+    character: "\u65C1\u767D"
+    text: "\u6211\u786E\u5B9E\u4ECE\u672A\u6765\u8FC7\u8FD9\u91CC\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 70
+    nextRow: 71
+    sequence: "\u4E0A\u5B66\u8DEF\u4E0A"
+    character: "\u65C1\u767D"
+    text: "\u4E00\u5207\u8857\u9053\u5EFA\u7B51\uFF0C\u98CE\u7269\u4EBA\u60C5\uFF0C\u90FD\u5F02\u5E38\u964C\u751F\u3002\u53EA\u6709\u7D27\u8D34\u7740\u6211\u7684\u59B9\u59B9\u6563\u53D1\u7740\u6E29\u70ED\u7684\u89E6\u611F\uFF0C\u5076\u5C14\u8BA9\u6211\u4E00\u9635\u5931\u795E\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 71
+    nextRow: 72
+    sequence: "\u4E0A\u5B66\u8DEF\u4E0A"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6B27\u5C3C\u9171\uFF0C\u522B\u8D70\u4E22\u4E86\u54E6\uFF01\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 72
+    nextRow: 73
+    sequence: "\u4E0A\u5B66\u8DEF\u4E0A"
+    character: "\u65C1\u767D"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: Shake
+    backgroundFile: 
+    effectDuration: 0.5
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 73
+    nextRow: 74
+    sequence: "\u4E0A\u5B66\u8DEF\u4E0A"
+    character: "\u4E3B\u89D2"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 74
+    nextRow: 75
+    sequence: "\u4E0A\u5B66\u8DEF\u4E0A"
+    character: "\u7EAF\u4E43"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 75
+    nextRow: 76
+    sequence: "\u4E0A\u5B66\u8DEF\u4E0A"
+    character: "\u65C1\u767D"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 76
+    nextRow: 0
+    sequence: "\u4E0A\u5B66\u8DEF\u4E0A"
+    character: "\u65C1\u767D"
+    text: "\u6211\u4EEC\u65E0\u8A00\u5730\u8D70\u8FC7\u5927\u8857\u5C0F\u5DF7\uFF0C\u7ECF\u8FC7\u4E00\u9053\u8DEF\u53E3\uFF0C\u5FFD\u7136\uFF0C\u5728\u5E02\u4E95\u6DF1\u5904\uFF0C\u4E00\u4E1B\u9AD8\u5899\u80CC\u540E\uFF0C\u7070\u767D\u5899\u76AE\u7684\u5EFA\u7B51\u5438\u5F15\u4E86\u6211\u7684\u6CE8\u610F\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG\uFF0C\u90E8\u5206\u653E\u5927"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices:
+    - text: "\u7EAF\u4E43\uFF0C\u90A3\u662F\u4EC0\u4E48\uFF1F"
+      targetRow: 77
+    - text: "\u7EAF\u4E43\uFF0C\u53EF\u4EE5\u53BB\u90A3\u8FB9\u5417\uFF1F"
+      targetRow: 86
+    - text: "\u6211\u4EEC\u56DE\u5BB6\u5427\u3002"
+      targetRow: 90
+    changes: []
+  - excelRow: 77
+    nextRow: 78
+    sequence: "\u533B\u9662\u9009\u62E9A"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u90A3\u4E2A\u2026\u53EA\u662F\u4E00\u6761\u5C0F\u5DF7\u5B50\u800C\u5DF2\u561B\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 78
+    nextRow: 79
+    sequence: "\u533B\u9662\u9009\u62E9A"
+    character: "\u65C1\u767D"
+    text: "\u7EAF\u4E43\u76EE\u5149\u4E00\u95EA\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 79
+    nextRow: 80
+    sequence: "\u533B\u9662\u9009\u62E9A"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u4E0D\u662F\uFF0C\u662F\u4E2D\u95F4\u90A3\u4E2A\uFF0C\u9AD8\u5899\u80CC\u540E\u7684\u90A3\u4E2A\u5EFA\u7B51\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 80
+    nextRow: 81
+    sequence: "\u533B\u9662\u9009\u62E9A"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u554A\u2026\u662F\u90A3\u4E2A\u554A\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 81
+    nextRow: 82
+    sequence: "\u533B\u9662\u9009\u62E9A"
+    character: "\u65C1\u767D"
+    text: "\u7EAF\u4E43\u7684\u773C\u795E\u4E2D\u5145\u6EE1\u4E86\u6323\u624E\uFF0C\u5979\u54AC\u7740\u5634\u5507\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 82
+    nextRow: 83
+    sequence: "\u533B\u9662\u9009\u62E9A"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u4E00\u5EA7\u5E9F\u5F03\u7684\u533B\u9662\u800C\u5DF2\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 83
+    nextRow: 84
+    sequence: "\u533B\u9662\u9009\u62E9A"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u533B\u9662\uFF1F\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 84
+    nextRow: 85
+    sequence: "\u533B\u9662\u9009\u62E9A"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u662F\u5440\u2026\u533B\u9662\u2026\u5E0C\u671B\u6211\u4EEC\u90FD\u6C38\u8FDC\u4E0D\u7528\u53BB\u90A3\u4E2A\u5730\u65B9\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 85
+    nextRow: 96
+    sequence: "\u533B\u9662\u9009\u62E9A"
+    character: "\u65C1\u767D"
+    text: "\u7EAF\u4E43\u5306\u5306\u6487\u8FC7\u8138\uFF0C\u62FD\u7740\u6211\u8D70\u4E86\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: '[San+1]'
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes:
+    - variable: 0
+      add: 1
+      value: 1
+  - excelRow: 86
+    nextRow: 87
+    sequence: "\u533B\u9662\u9009\u62E9B"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u554A\uFF1F\u4E3A\u4EC0\u4E48\u8981\u53BB\u90A3\u91CC\u5440\uFF1F\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 87
+    nextRow: 88
+    sequence: "\u533B\u9662\u9009\u62E9B"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u6211\u89C9\u5F97\uFF0C\u90A3\u4E2A\u9AD8\u5899\u80CC\u540E\u7684\u5EFA\u7B51\uFF0C\u5F88\u6A21\u7CCA\u2026\u597D\u50CF\u85CF\u7740\u4EC0\u4E48\u4E1C\u897F\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 88
+    nextRow: 89
+    sequence: "\u533B\u9662\u9009\u62E9B"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u90A3\u4E2A\u90FD\u65E0\u6240\u8C13\u5566\uFF01\u4E0D\u5FEB\u70B9\u53BB\u5B66\u6821\u7684\u8BDD\uFF0C\u771F\u7684\u8981\u8FDF\u5230\u4E86\u2026\u8D70\u5566\u6B27\u5C3C\u9171\uFF01\u300D\uFF08\u65E0\u5948\uFF09"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 89
+    nextRow: 96
+    sequence: "\u533B\u9662\u9009\u62E9B"
+    character: "\u65C1\u767D"
+    text: "\u7EAF\u4E43\u5F3A\u884C\u62D6\u62FD\u6211\u79BB\u5F00\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: '[San+2]'
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes:
+    - variable: 0
+      add: 1
+      value: 2
+  - excelRow: 90
+    nextRow: 91
+    sequence: "\u533B\u9662\u9009\u62E9C"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u56DE\u5BB6\uFF1F\u4E3A\u4EC0\u4E48\uFF1F\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 91
+    nextRow: 92
+    sequence: "\u533B\u9662\u9009\u62E9C"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u8FD9\u4E2A\u57CE\u5E02\u5F88\u964C\u751F\uFF0C\u6211\u611F\u89C9\u5B83\u5E76\u4E0D\u63A5\u53D7\u6211\uFF0C\u6211\u53EA\u6C42\u504F\u5B89\u4E00\u9685\u2026\u6709\u4F60\u5C31\u597D\u3002\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 92
+    nextRow: 93
+    sequence: "\u533B\u9662\u9009\u62E9C"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u55F3~\u6CA1\u4E8B\u7684\uFF0C\u6B27\u5C3C\u9171\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 93
+    nextRow: 94
+    sequence: "\u533B\u9662\u9009\u62E9C"
+    character: "\u65C1\u767D"
+    text: "\u7EAF\u4E43\u5C06\u8111\u888B\u9760\u8FC7\u6765\uFF0C\u7D27\u8D34\u6211\u7684\u80F8\u819B\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 94
+    nextRow: 95
+    sequence: "\u533B\u9662\u9009\u62E9C"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u65E0\u8BBA\u53D1\u751F\u4EC0\u4E48\uFF0C\u59B9\u59B9\u6211\uFF0C\u4F1A\u6C38\u8FDC\u966A\u7740\u6B27\u5C3C\u9171\u7684\u2026\u300D"
+    voiceFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    portraitFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 95
+    nextRow: 96
+    sequence: "\u533B\u9662\u9009\u62E9C"
+    character: "\u65C1\u767D"
+    text: "\u7EAF\u4E43\uFF0C\u4F3C\u4E4E\u5C06\u6211\u633D\u5F97\u66F4\u7D27\u4E86\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "[San-1\uFF0C\u59B9\u597D\u611F+10]"
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes:
+    - variable: 0
+      add: 1
+      value: -1
+    - variable: 1
+      add: 1
+      value: 10
+  - excelRow: 96
+    nextRow: 97
+    sequence: "\u6765\u5230\u5B66\u6821"
+    character: "\u65C1\u767D"
+    text: "\u5728\u59B9\u59B9\u7684\u5E26\u9886\u4E0B\uFF0C\u6211\u4EEC\u6765\u5230\u4E86\u9752\u9F99\u5C71\u9AD8\u7EA7\u4E2D\u5B66\uFF0C\u8FD9\u4E2A\u5F00\u542F\u6211\u65B0\u7684\u8BB0\u5FC6\u548C\u4EBA\u751F\u7684\u5730\u65B9\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 97
+    nextRow: 98
+    sequence: "\u6765\u5230\u5B66\u6821"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u5C31\u662F\u8FD9\u91CC\u4E86\uFF0C\u6B27\u5C3C\u9171\uFF0C\u600E\u4E48\u6837\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 98
+    nextRow: 99
+    sequence: "\u6765\u5230\u5B66\u6821"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u770B\u8D77\u6765\u5012\u8FD8\u633A\u6709\u6392\u9762\u7684\uFF0C\u5B66\u751F\u4E5F\u5F88\u591A\u7684\u6837\u5B50\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 99
+    nextRow: 100
+    sequence: "\u6765\u5230\u5B66\u6821"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u8FD9\u662F\u5168\u5E02\u6700\u597D\u7684\u9AD8\u4E2D\u4E86\uFF0C\u542C\u8BF4\u6821\u56ED\u5F88\u5927\uFF0C\u5B66\u751F\u6D3B\u52A8\u4E5F\u76F8\u5F53\u81EA\u7531\u3002\u6B27\u5C3C\u9171\u5E94\u8BE5\u4F1A\u5728\u8FD9\u91CC\u5EA6\u8FC7\u4E00\u6BB5\u7F8E\u597D\u7684\u65F6\u5149\u7684~\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 100
+    nextRow: 101
+    sequence: "\u6765\u5230\u5B66\u6821"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u4F46\u613F\u5982\u6B64\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 101
+    nextRow: 102
+    sequence: "\u6765\u5230\u5B66\u6821"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u597D\u5566\uFF0C\u8981\u4FDD\u6301\u5FAE\u7B11\u54E6\u6B27\u5C3C\u9171\uFF01\u53EA\u6709\u6B27\u5C3C\u9171\u5F00\u5F00\u5FC3\u5FC3\u7684\uFF0C\u6211\u624D\u4F1A\u5E78\u798F\u5462~\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 102
+    nextRow: 103
+    sequence: "\u6765\u5230\u5B66\u6821"
+    character: "\u65C1\u767D"
+    text: "\u7EAF\u4E43\u4E3A\u6211\u51FA\u793A\u4E86\u5165\u5B66\u8BC1\u660E\uFF0C\u5E76\u5728\u968F\u540E\u4EE5\u5BB6\u5C5E\u7684\u8EAB\u4EFD\u8DDF\u6211\u8FDB\u4E86\u5B66\u6821\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 103
+    nextRow: 104
+    sequence: "\u8FDB\u5165\u5B66\u6821"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u7EAF\u4E43\u662F\u8FD8\u6709\u4E00\u5E74\u4E0A\u9AD8\u4E2D\u5417\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 104
+    nextRow: 105
+    sequence: "\u8FDB\u5165\u5B66\u6821"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u662F\u54D2~\u4EE5\u540E\u4E2D\u5348\u7684\u65F6\u5019\u6211\u4F1A\u7ED9\u6B27\u5C3C\u9171\u9001\u4FBF\u5F53\u6765\u7684\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 105
+    nextRow: 106
+    sequence: "\u8FDB\u5165\u5B66\u6821"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u554A\u2026\u90A3\u4E0D\u662F\u5F88\u9EBB\u70E6\u5417\uFF0C\u6211\u4E2D\u5348\u4E5F\u53EF\u4EE5\u56DE\u5BB6\u7684\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 106
+    nextRow: 107
+    sequence: "\u8FDB\u5165\u5B66\u6821"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6B27\u5C3C\u9171\u592A\u5B64\u50FB\u4E86\uFF0C\u53EF\u4EE5\u5728\u4E2D\u5348\u548C\u540C\u5B66\u4EEC\u591A\u8BF4\u8BF4\u8BDD\u561B\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 107
+    nextRow: 108
+    sequence: "\u8FDB\u5165\u5B66\u6821"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u90A3\u4E5F\u5F97\u80FD\u4EA4\u5230\u670B\u53CB\u5427\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 108
+    nextRow: 109
+    sequence: "\u8FDB\u5165\u5B66\u6821"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u65B0\u5B66\u671F\u522B\u8FD9\u4E48\u4E27\u6C14\u561B\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 109
+    nextRow: 110
+    sequence: "\u8FDB\u5165\u5B66\u6821"
+    character: "\u65C1\u767D"
+    text: "\u6211\u4EEC\u624B\u633D\u624B\u6F2B\u6B65\u5728\u6821\u56ED\u5185\uFF0C\u4E00\u8FB9\u8BF4\u7740\u672A\u6765\u7684\u6253\u7B97\uFF0C\u4E00\u8FB9\u719F\u6089\u5B66\u6821\u7684\u5E03\u5C40\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 110
+    nextRow: 111
+    sequence: "\u5C55\u793A\u573A\u666F"
+    character: "\u65C1\u767D"
+    text: "\u9752\u9F99\u5C71\u9AD8\u7EA7\u4E2D\u5B66\uFF0C\u73AF\u5883\u4F18\u7F8E\uFF0C\u8BBE\u65BD\u5B8C\u5907\u3002\u64CD\u573A\uFF0C\u97F3\u4E50\u5385\uFF0C\u56FE\u4E66\u9986\uFF0C\u5927\u793C\u5802\uFF0C\u4F53\u80B2\u9986\uFF0C\u6E38\u6CF3\u9986\uFF0C\u5C0F\u6811\u6797\uFF0C\u4EE5\u53CA\u5BB9\u6613\u53CD\u9501\u7684\u4F53\u80B2\u4ED3\u5E93\u4EC0\u4E48\u7684\u5E94\u6709\u5C3D\u6709\uFF0C\u4E0D\u6127\u4E3A\u5168\u5E02\u7B2C\u4E00\u4E2D\u5B66\u3002\u770B\u7EAF\u4E43\u7684\u6837\u5B50\uFF0C\u5979\u4F3C\u4E4E\u4E5F\u76F8\u5F53\u6EE1\u610F\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u8FDE\u7EED\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 111
+    nextRow: 112
+    sequence: "\u5C55\u793A\u573A\u666F"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u5728\u81EA\u7531\u6D3B\u52A8\u65F6\u95F4\uFF0C\u4F3C\u4E4E\u662F\u54EA\u91CC\u90FD\u53EF\u4EE5\u53BB\u7684\uFF0C\u9664\u4E86\u90A3\u4E2A\u5947\u602A\u7684\u4ED3\u5E93\uFF0C\u6B27\u5C3C\u9171\uFF0C\u8981\u5C0F\u5FC3\u522B\u88AB\u53CD\u9501\u8FDB\u53BB\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 112
+    nextRow: 113
+    sequence: "\u8DEF\u4EBA\u5BF9\u8BDD"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u8FD9\u662F\u4E2AFLAG\u5427\uFF01\u8BDD\u8BF4\u6211\u4E3A\u4EC0\u4E48\u8981\u628A\u81EA\u5DF1\u53CD\u9501\u8FDB\u53BB\u554A\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 113
+    nextRow: 114
+    sequence: "\u8DEF\u4EBA\u5BF9\u8BDD"
+    character: "\u4F51\u4ECB"
+    text: "\u300C\u8FD9\u4F60\u4EEC\u5C31\u4E0D\u61C2\u4E86\u5427\uFF01\u8FD9\u4E2A\u4ED3\u5E93\u53EF\u662F\u5F88\u591A\u9AD8\u5E74\u7EA7\u5B66\u751F\u5FC3\u76EE\u4E2D\u7684\u300E\u5723\u5730\u300F\u5462\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 114
+    nextRow: 115
+    sequence: "\u8DEF\u4EBA\u5BF9\u8BDD"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u8BF6\u2026\u4E3A\u4EC0\u4E48\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 115
+    nextRow: 116
+    sequence: "\u8DEF\u4EBA\u5BF9\u8BDD"
+    character: "\u4F51\u4ECB"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 116
+    nextRow: 117
+    sequence: "\u8DEF\u4EBA\u5BF9\u8BDD"
+    character: "\u65C1\u767D"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 117
+    nextRow: 118
+    sequence: "\u8DEF\u4EBA\u5BF9\u8BDD"
+    character: "\u4F51\u4ECB"
+    text: "\u300C\u554A\u54C8\u54C8\uFF01\u4F60\u548C\u5973\u670B\u53CB\u611F\u60C5\u771F\u597D\u5462\uFF0C\u5144\u5F1F\u3002\u90A3\u6211\u8FD8\u6709\u4E8B\uFF0C\u5148\u8D70\u4E86\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 118
+    nextRow: 119
+    sequence: "\u8DEF\u4EBA\u5BF9\u8BDD"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u554A\u6211\u4EEC\u4E0D\u662F\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 119
+    nextRow: 120
+    sequence: "\u8DEF\u4EBA\u5BF9\u8BDD"
+    character: "\u65C1\u767D"
+    text: "\u90A3\u4E2A\u81EA\u6765\u719F\u7684\u7537\u751F\u4E00\u6E9C\u70DF\u8DD1\u4E86\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 120
+    nextRow: 121
+    sequence: "\u8DEF\u4EBA\u5BF9\u8BDD"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6B27\u5C3C\u9171\u2026\u6240\u4EE5\u8BF4\u2026\u4E0D\u8981\u8FDB\u53BB\u90A3\u91CC\u2026\u300D\uFF08\u4F4E\u5934\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 121
+    nextRow: 122
+    sequence: "\u8DEF\u4EBA\u5BF9\u8BDD"
+    character: "\u65C1\u767D"
+    text: "\u6211\u7B11\u7740\u6478\u4E86\u6478\u59B9\u59B9\u7684\u5934\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 122
+    nextRow: 123
+    sequence: "\u8DEF\u4EBA\u5BF9\u8BDD"
+    character: "\u65C1\u767D"
+    text: "\u5728\u5F00\u5B66\u5B63\u671F\u95F4\uFF0C\u8BB8\u591A\u793E\u56E2\u90FD\u5728\u4E3E\u884C\u5DE1\u56DE\u8868\u6F14\uFF0C\u65E0\u8BBA\u54EA\u91CC\u90FD\u76F8\u5F53\u70ED\u95F9\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 123
+    nextRow: 124
+    sequence: "\u8DEF\u4EBA\u5BF9\u8BDD"
+    character: "\u65C1\u767D"
+    text: "\u6BD4\u5982\u8FD9\u8FB9\u8EAB\u7A7F\u5947\u88C5\u5F02\u670D\u7684\uFF0C\u5E94\u8BE5\u5C31\u662Fcosplay\u793E\u56E2\u7684\u6CA1\u9519\u4E86\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 124
+    nextRow: 125
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u51DB\u7EEA"
+    text: "\u300C\u8C01cosplay\u5440\uFF1F\u8FD9\u53EA\u662F\u5E73\u65F6\u7A7F\u7684\u8863\u670D\u5566\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 125
+    nextRow: 126
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u554A\u8FD9\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 126
+    nextRow: 127
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u7EAF\u4E43\uFF0C\u771F\u7684\u53EF\u4EE5\u7A7F\u6210\u8FD9\u6837\u4E0A\u8BFE\u5417\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 127
+    nextRow: 128
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u4E0D\u77E5\u9053\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 128
+    nextRow: 129
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u51DB\u7EEA"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 129
+    nextRow: 130
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6211\u8FD8\u6CA1\u5165\u5B66\u5462\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 130
+    nextRow: 131
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u51DB\u7EEA"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 131
+    nextRow: 132
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u5979\u53EA\u662F\u6211\u7684\u59B9\u59B9\uFF01\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 132
+    nextRow: 133
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u65C1\u767D"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 133
+    nextRow: 134
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u65C1\u767D"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 134
+    nextRow: 135
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u65C1\u767D"
+    text: "\u70ED\u95F9\uFF0C\u53EA\u662F\u4E00\u65B9\u9762\u3002\u66F4\u91CD\u8981\u7684\u662F\uFF0C\u8FD9\u91CC\u7684\u6C14\u6C1B\u5B8C\u5168\u4E0D\u540C\uFF0C\u548C\u57CE\u5E02\u7684\u51B7\u6F20\u65E0\u60C5\u76F8\u6BD4\uFF0C\u8FD9\u91CC\u66F4\u52A0\u663E\u5F97\u4EB2\u5207\u53CB\u5584\u3002\u611F\u89C9\u4F3C\u4E4E\uFF0C\u6211\u771F\u7684\u80FD\u5728\u8FD9\u91CC\u878D\u5165\u8FD9\u4E2A\u4E16\u754C\u4E86\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 135
+    nextRow: 136
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u7EAF\u4E43\uFF0C\u8FD9\u91CC\u6BD4\u6211\u60F3\u8C61\u7684\u8981\u597D\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 136
+    nextRow: 137
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u55EF~\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 137
+    nextRow: 138
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u65C1\u767D"
+    text: "\u542C\u5230\u6211\u79EF\u6781\u7684\u8BC4\u4EF7\uFF0C\u7EAF\u4E43\u677E\u4E86\u4E00\u53E3\u6C14\uFF0C\u4F3C\u4E4E\u5FC3\u91CC\u7684\u5FD0\u5FD1\u4E5F\u653E\u4E0B\u4E86\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 138
+    nextRow: 139
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u901B\u4E86\u8FD9\u4E48\u4E45\uFF0C\u4E5F\u4E0D\u77E5\u9053\u6B27\u5C3C\u9171\u7684\u6559\u5BA4\u5728\u54EA\u91CC\u5462\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 139
+    nextRow: 140
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u65C1\u767D"
+    text: "\u5FFD\u7136\uFF0C\u524D\u65B9\u4EBA\u58F0\u7199\u6518\uFF0C\u8FD8\u53D1\u751F\u4E86\u4E9B\u8BB8\u9A9A\u52A8\u3002\u6211\u4EEC\u51D1\u8FD1\u53BB\u770B\uFF0C\u542C\u5230\u65C1\u8FB9\u4E24\u4E2A\u59B9\u5B50\u53FD\u53FD\u55B3\u55B3\u7684\u8BA8\u8BBA\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 140
+    nextRow: 141
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u7406\u60E0"
+    text: "\u300C\u54C7\u2026\u5FEB\u770B\u90A3\u4E2A\u7C89\u5934\u53D1\u7684\u5973\u751F\uFF01\u597D\u6F02\u4EAE\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 141
+    nextRow: 0
+    sequence: "\u5BF9\u8BDDnpc"
+    character: "\u7433"
+    text: "\u300C\u4E5F\u662F\u65B0\u751F\u5417\uFF1F\u2026\u8FD9\u5BB9\u8C8C\u4E5F\u592A\u72AF\u89C4\u4E86\u5427~\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices:
+    - text: "\u53BB\u770B\u770B"
+      targetRow: 142
+    - text: "\u548C\u59B9\u59B9\u6C9F\u901A"
+      targetRow: 146
+    changes: []
+  - excelRow: 142
+    nextRow: 143
+    sequence: "\u60F3\u8981\u5C3E\u968FA"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u7EAF\u4E43\uFF0C\u6211\u4EEC\u53BB\u770B\u770B\u5427\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 143
+    nextRow: 144
+    sequence: "\u60F3\u8981\u5C3E\u968FA"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6B27\u5C3C\u9171\u662F\u60F3\u770B\u90A3\u4E2A\u5973\u751F\u5417\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 144
+    nextRow: 145
+    sequence: "\u60F3\u8981\u5C3E\u968FA"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u5443\u554A\u2026\u4E0D\u662F\uFF01\u542C\u8BF4\u90A3\u91CC\u6709\u65B0\u751F\uFF0C\u6240\u4EE5\u8DDF\u8FC7\u53BB\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 145
+    nextRow: 149
+    sequence: "\u60F3\u8981\u5C3E\u968FA"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u5514\uFF0C\u65B0\u751F\u554A\u2026\u8DDF\u7740\u8BF4\u4E0D\u5B9A\u786E\u5B9E\u80FD\u627E\u5230\u6559\u5BA4\uFF0C\u55EF\uFF0C\u90A3\u6211\u4EEC\u8D70\u5427~\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 146
+    nextRow: 147
+    sequence: "\u60F3\u8981\u5C3E\u968FB"
+    character: "\u65C1\u767D"
+    text: "\u90A3\u4E2A\u5973\u751F\u4F3C\u4E4E\u662F\u5F80\u6559\u5B66\u697C\u7684\u65B9\u5411\u7684\u3002\u59B9\u59B9\u548C\u6211\u5BF9\u89C6\u4E00\u773C\uFF0C\u90FD\u89C9\u5F97\u8DDF\u7740\u5979\u5E94\u8BE5\u5C31\u80FD\u627E\u5230\u6559\u5BA4\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 147
+    nextRow: 148
+    sequence: "\u60F3\u8981\u5C3E\u968FB"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6B27\u5C3C\u9171\uFF0C\u8981\u4E0D\u8981\u6253\u4E2A\u62DB\u547C\u4EC0\u4E48\u7684\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 148
+    nextRow: 149
+    sequence: "\u60F3\u8981\u5C3E\u968FB"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u786E\u5B9E\u5C3E\u968F\u6709\u70B9\u4E0D\u592A\u793C\u8C8C\u2026\u5982\u679C\u642D\u4E0A\u8BDD\uFF0C\u5C31\u76F8\u4E92\u8BA4\u8BC6\u4E00\u4E0B\u5427\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u59B9\u597D\u611F+10"
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes:
+    - variable: 1
+      add: 1
+      value: 10
+  - excelRow: 149
+    nextRow: 150
+    sequence: "\u8DDF\u4E86\u8FC7\u53BB"
+    character: "\u65C1\u767D"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 150
+    nextRow: 151
+    sequence: "\u8DDF\u4E86\u8FC7\u53BB"
+    character: "\u65C1\u767D"
+    text: "\u7B49\u7B49...\u90A3\u4E2A\u4EBA\u2026"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 151
+    nextRow: 152
+    sequence: "\u8DDF\u4E86\u8FC7\u53BB"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u554A...\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 152
+    nextRow: 153
+    sequence: "\u8DDF\u4E86\u8FC7\u53BB"
+    character: "\u65C1\u767D"
+    text: "\u6211\u7684\u592A\u9633\u7A74\u5FFD\u7136\u9690\u9690\u4F5C\u75DB\u8D77\u6765\uFF0C\u5C31\u597D\u50CF\u6B21\u58F0\u6CE2\u7A7F\u900F\u6211\u7684\u8111\u58F3\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 153
+    nextRow: 154
+    sequence: "\u8DDF\u4E86\u8FC7\u53BB"
+    character: "\u65C1\u767D"
+    text: "\u53D1\u751F\u4E86\u4EC0\u4E48\uFF1F\u6211\u4E0D\u77E5\u9053\uFF0C\u4F46\u524D\u9762\uFF0C\u4ED6\u4EEC\u540C\u65F6\u8F6C\u4E86\u8FC7\u6765\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 154
+    nextRow: 155
+    sequence: "\u8DDF\u4E86\u8FC7\u53BB"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u554A\u5440...\u6211\u4EEC\u540E\u9762\u597D\u50CF\u662F\u4E00\u8D77\u6765\u62A5\u9053\u7684\u540C\u5B66\u5462\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 155
+    nextRow: 0
+    sequence: "\u8DDF\u4E86\u8FC7\u53BB"
+    character: "\u65C1\u767D"
+    text: "\u4ED6\u4EEC\u7A81\u7136\u505C\u4E0B\u6765\uFF0C\u7136\u540E\u8F6C\u8EAB\u671B\u7740\u6211\u4EEC\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices:
+    - text: "\u8FD9\u4E2A\u5973\u751F\u2026\u786E\u5B9E\u5F88\u6F02\u4EAE\u2026"
+      targetRow: 156
+    - text: "\u5979\u662F\u600E\u4E48\u770B\u5230\u6211\u5728\u5979\u80CC\u540E\u7684\uFF1F"
+      targetRow: 158
+    - text: "\u90A3\u4E2A\u4EBA\u662F\u8C01\uFF1F\u2026"
+      targetRow: 160
+    changes: []
+  - excelRow: 156
+    nextRow: 157
+    sequence: "\u6B63\u9762\u76F8\u5BF9A"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u4F60\u4EEC\u597D~\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: "San-1\uFF0C\u5C0F\u89C9\u7EBF+1"
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes:
+    - variable: 0
+      add: 1
+      value: -1
+    - variable: 5
+      add: 1
+      value: 1
+  - excelRow: 157
+    nextRow: 162
+    sequence: "\u6B63\u9762\u76F8\u5BF9A"
+    character: "\u65C1\u767D"
+    text: "\u5C11\u5973\u751C\u751C\u4E00\u7B11\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 158
+    nextRow: 159
+    sequence: "\u6B63\u9762\u76F8\u5BF9B"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u4F60\u4EEC\u597D~\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: San+2
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes:
+    - variable: 0
+      add: 1
+      value: 2
+  - excelRow: 159
+    nextRow: 162
+    sequence: "\u6B63\u9762\u76F8\u5BF9B"
+    character: "\u65C1\u767D"
+    text: "\u5C11\u5973\u7741\u5927\u773C\u775B\uFF0C\u4F3C\u4E4E\u6709\u4E9B\u60CA\u8BB6\uFF0C\u968F\u5373\u7B11\u7740\u671D\u6211\u4EEC\u6253\u62DB\u547C\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 160
+    nextRow: 161
+    sequence: "\u6B63\u9762\u76F8\u5BF9C"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u4F60\u4EEC\u597D~\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: San+1
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes:
+    - variable: 0
+      add: 1
+      value: 1
+  - excelRow: 161
+    nextRow: 162
+    sequence: "\u6B63\u9762\u76F8\u5BF9C"
+    character: "\u65C1\u767D"
+    text: "\u5C11\u5973\u773C\u5E95\u95EA\u8FC7\u72E1\u9EE0\u7684\u76EE\u5149\uFF0C\u5FAE\u7B11\u7740\u671D\u6211\u4EEC\u6253\u62DB\u547C\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 162
+    nextRow: 163
+    sequence: "\u5C0F\u89C9\u767B\u573A"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u554A\uFF01\u2026\u55EF\u2026\u4F60\u4EEC\u597D\uFF01\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 163
+    nextRow: 164
+    sequence: "\u5C0F\u89C9\u767B\u573A"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u6211\u53EB\u53E4\u660E\u5730\u89C9~\u5F88\u9AD8\u5174\u8BA4\u8BC6\u4F60\u4EEC~\u4F60\u4EEC\u4E5F\u662F\u4E00\u8D77\u6765\u62A5\u9053\u7684\u5427\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 164
+    nextRow: 165
+    sequence: "\u5C0F\u89C9\u767B\u573A"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u5F88\u9AD8\u5174\u8BA4\u8BC6\u4F60\uFF01\u6211\u53EB{playerName}\uFF0C\u662F\u6765\u62A5\u9053\u7684\u9AD8\u4E2D\u4E00\u5E74\u7EA7\u5B66\u751F\uFF0C\u8FD9\u662F\u6211\u59B9\u59B9\uFF0C\u7EAF\u4E43\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 165
+    nextRow: 166
+    sequence: "\u5C0F\u89C9\u767B\u573A"
+    character: "\u65C1\u767D"
+    text: "\u7EAF\u4E43\u604D\u60DA\u4E4B\u95F4\uFF0C\u542C\u5230\u6211\u53EB\u5979\uFF0C\u60CA\u9192\u8FC7\u6765\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 166
+    nextRow: 167
+    sequence: "\u5C0F\u89C9\u767B\u573A"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u554A\u4F60\u597D\uFF01\u53E4\u660E\u5730\u540C\u5B66\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 167
+    nextRow: 168
+    sequence: "\u5C0F\u89C9\u767B\u573A"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u5657\u2026\u4F60\u4EEC\u5728\u627E\u6559\u5BA4\u5427\uFF1F\u5C31\u5728\u8FD9\u4E2A\u8D70\u5ECA\u5C3D\u5934\u54E6\uFF0C\u6211\u4E5F\u6B63\u8981\u53BB\u62A5\u9053\uFF0C\u8BF4\u4E0D\u5B9A\u6211\u4EEC\u4F1A\u5206\u5230\u4E00\u4E2A\u73ED\u5462\u3002\u90A3\uFF0C\u5148\u8D70\u5566~\u300D\uFF08\u7B11\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u89C9\u597D\u611F+10\uFF0C\u521D\u59CB\u4E3A0"
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes:
+    - variable: 2
+      add: 1
+      value: 10
+  - excelRow: 168
+    nextRow: 169
+    sequence: "\u5C0F\u89C9\u767B\u573A"
+    character: "\u65C1\u767D"
+    text: "\u6211\u770B\u89C1\u53E4\u660E\u5730\u89C9\u548C\u90A3\u4E2A\u4EBA\u5F80\u524D\u8D70\u4E86\u4E00\u6BB5\u8DEF\uFF0C\u8F6C\u8FC7\u4E00\u4E2A\u62D0\u89D2\uFF0C\u4E0D\u89C1\u4E86\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 169
+    nextRow: 0
+    sequence: "\u5C0F\u89C9\u767B\u573A"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6B27\u5C3C\u9171\u2026\u4F60\u89C9\u5F97\u53E4\u660E\u5730\u540C\u5B66\u600E\u4E48\u6837\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices:
+    - text: "\u300C\u662F\u4E2A\u53EF\u7231\u53C8\u5584\u89E3\u4EBA\u610F\u7684\u5973\u751F\u3002\u300D"
+      targetRow: 170
+    - text: "\u300C\u600E\u4E48\u6837\uFF1F\u2026\u624D\u521A\u521A\u8BA4\u8BC6\u800C\u5DF2\u561B\u2026\u300D"
+      targetRow: 173
+    - text: "\u300C\u80AF\u5B9A\u6CA1\u6709\u7EAF\u4E43\u53EF\u7231~\u300D"
+      targetRow: 175
+    changes: []
+  - excelRow: 170
+    nextRow: 171
+    sequence: "\u5982\u4F55\u8BC4\u4EF7A"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u4EC0\u4E48\u561B\u2026\u4EBA\u5BB6\u5C31\u4E0D\u53EF\u7231\u4E0D\u5584\u89E3\u4EBA\u610F\u561B\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 171
+    nextRow: 172
+    sequence: "\u5982\u4F55\u8BC4\u4EF7A"
+    character: "\u65C1\u767D"
+    text: "\u7EAF\u4E43\u88C5\u4F5C\u51F6\u5DF4\u5DF4\u7684\u6837\u5B50\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 172
+    nextRow: 177
+    sequence: "\u5982\u4F55\u8BC4\u4EF7A"
+    character: "\u65C1\u767D"
+    text: "\u4E00\u8DEF\u4E0A\u6253\u6253\u95F9\u95F9\uFF0C\u5230\u4E86\u8D70\u5ECA\u5C3D\u5934\u7684\u6559\u5BA4\uFF0C\u7B7E\u4E86\u51E0\u4E2A\u5355\u5B50\u4E4B\u540E\uFF0C\u63A5\u4E0B\u6765\u5C31\u662F\u53BB\u9886\u5B66\u6821\u5236\u670D\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5C0F\u89C9\u7EBF+1\uFF0C\u59B9\u597D\u611F-5"
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes:
+    - variable: 5
+      add: 1
+      value: 1
+    - variable: 1
+      add: 1
+      value: -5
+  - excelRow: 173
+    nextRow: 174
+    sequence: "\u5982\u4F55\u8BC4\u4EF7B"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u55EF\u2026\u300D\uFF08\u59B9\u59B9\u62C5\u5FC3\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 174
+    nextRow: 177
+    sequence: "\u5982\u4F55\u8BC4\u4EF7B"
+    character: "\u65C1\u767D"
+    text: "\u4E00\u8DEF\u4E0A\u6C14\u6C1B\u6709\u4E9B\u6C89\u95F7\uFF0C\u5230\u4E86\u8D70\u5ECA\u5C3D\u5934\u7684\u6559\u5BA4\uFF0C\u7B7E\u4E86\u51E0\u4E2A\u5355\u5B50\u4E4B\u540E\uFF0C\u63A5\u4E0B\u6765\u5C31\u662F\u53BB\u9886\u5B66\u6821\u5236\u670D\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "B\u2014\u2014San+1"
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes:
+    - variable: 0
+      add: 1
+      value: 1
+  - excelRow: 175
+    nextRow: 176
+    sequence: "\u5982\u4F55\u8BC4\u4EF7C"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u545C\u2026\u771F\u662F\u7684\uFF01\u2026\u6B27\u5C3C\u9171\u51C0\u4F1A\u6349\u5F04\u6211\u2026\u300D\uFF08\u59B9\u59B9\u8138\u7EA2\uFF0C\u626D\u5934\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 176
+    nextRow: 177
+    sequence: "\u5982\u4F55\u8BC4\u4EF7C"
+    character: "\u65C1\u767D"
+    text: "\u4E00\u8DEF\u4E0A\u6253\u6253\u95F9\u95F9\uFF0C\u5230\u4E86\u8D70\u5ECA\u5C3D\u5934\u7684\u6559\u5BA4\uFF0C\u7B7E\u4E86\u51E0\u4E2A\u5355\u5B50\u4E4B\u540E\uFF0C\u63A5\u4E0B\u6765\u5C31\u662F\u53BB\u9886\u5B66\u6821\u5236\u670D\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "C\u2014\u2014\u59B9\u597D\u611F+20"
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes:
+    - variable: 1
+      add: 1
+      value: 20
+  - excelRow: 177
+    nextRow: 178
+    sequence: "\u9886\u6821\u670D"
+    character: "\u65C1\u767D"
+    text: "\u5730\u70B9\u662F\u5728\u5206\u914D\u7684\u6559\u5BA4\uFF0C\u5C3D\u7BA1\u88AB\u544A\u77E5\u5F97\u76F8\u5F53\u6E05\u695A\uFF0C\u4F46\u56E0\u4E3A\u4EBA\u751F\u5730\u4E0D\u719F\uFF0C\u8D76\u5230\u8FD8\u662F\u82B1\u4E86\u5F88\u957F\u65F6\u95F4\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 178
+    nextRow: 179
+    sequence: "\u9886\u6821\u670D"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u6709\u4EBA\u5728\u5417\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 179
+    nextRow: 180
+    sequence: "\u9886\u6821\u670D"
+    character: "\u51DB\u7EEA"
+    text: "\u300C\u554A\u5440\uFF0C\u4F3C\u4E4E\u662F\u6700\u540E\u4E00\u4F4D\u4E86\u5462\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 180
+    nextRow: 181
+    sequence: "\u9886\u6821\u670D"
+    character: "\u6211&\u51DB\u7EEA"
+    text: "\u300C\u600E\u4E48\u53C8\u662F\u4F60\u554A\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 181
+    nextRow: 182
+    sequence: "\u9886\u6821\u670D"
+    character: "\u51DB\u7EEA"
+    text: "\u300C\u56E0\u4E3A\u5236\u670D\u662F\u6211\u4EEC\u300E\u6B21\u5143\u58C1\u300F\u793E\u56E2\u8D1F\u8D23\u8BBE\u8BA1\u5236\u4F5C\u7684\u561B\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 182
+    nextRow: 183
+    sequence: "\u9886\u6821\u670D"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u8FD9\u5C31\u662F\u4F60\u4EEC\u628A\u5236\u670D\u505A\u7684\u82B1\u91CC\u80E1\u54E8\u8FD8\u5206\u4E86\u5341\u51E0\u4E2A\u6B3E\u5F0F\u7684\u539F\u56E0\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 183
+    nextRow: 184
+    sequence: "\u9886\u6821\u670D"
+    character: "\u51DB\u7EEA"
+    text: "\u300C\u5435\u6B7B\u4E86\uFF0C\u4F60\u5C31\u62FF\u8FD9\u4EF6\u5427\uFF01\u51FA\u53BB\u51FA\u53BB\uFF01\u6536\u644A\u4E86\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 184
+    nextRow: 185
+    sequence: "\u9886\u6821\u670D"
+    character: "\u65C1\u767D"
+    text: "\u6211\u9886\u4E86\u5236\u670D\u88AB\u8D76\u51FA\u6765\uFF0C\u4ED4\u7EC6\u770B\u4E86\u770B\uFF0C\u4F3C\u4E4E\u9020\u578B\u8FD8\u4E0D\u9519\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 185
+    nextRow: 186
+    sequence: "\u9886\u6821\u670D"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u7EAF\u4E43\uFF0C\u6211\u53BB\u6362\u8863\u95F4\u8BD5\u4E00\u4E0B\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 186
+    nextRow: 187
+    sequence: "\u9886\u6821\u670D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u597D~\u6211\u5728\u5916\u9762\u7B49\u6B27\u5C3C\u9171\u51FA\u6765\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 187
+    nextRow: 188
+    sequence: "\u9886\u6821\u670D"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u55EF\uFF0C\u90A3\u7A0D\u7B49\u54E6\uFF0C\u7EAF\u4E43\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 188
+    nextRow: 189
+    sequence: "\u9886\u6821\u670D"
+    character: "\u65C1\u767D"
+    text: "\u6211\u4E00\u8FB9\u5631\u5490\u7EAF\u4E43\u539F\u5730\u7B49\u6211\uFF0C\u4E00\u8FB9\u5BFB\u627E\u66F4\u8863\u5BA4\u7684\u724C\u5B50\uFF0C\u63A8\u95E8\u8FDB\u53BB\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 189
+    nextRow: 190
+    sequence: "\u9886\u6821\u670D"
+    character: "\u65C1\u767D"
+    text: "\u6240\u89C1\u662F\u4E00\u95F4\u53E4\u6734\u98CE\u683C\u7684\u66F4\u8863\u5BA4\uFF0C\u65F6\u95F4\u786E\u5B9E\u5F88\u665A\u4E86\uFF0C\u91CC\u9762\u5E76\u6CA1\u6709\u4EBA\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 190
+    nextRow: 191
+    sequence: "\u9886\u6821\u670D"
+    character: "\u65C1\u767D"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 191
+    nextRow: 192
+    sequence: "\u5C0F\u89C9\u9F19\u9F13"
+    character: "\u65C1\u767D"
+    text: "\u5FC3 \u80BA \u9AA4 \u505C"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 192
+    nextRow: 193
+    sequence: "\u5C0F\u89C9\u9F19\u9F13"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u554A\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 193
+    nextRow: 194
+    sequence: "\u5C0F\u89C9\u4FA7\u8EAB"
+    character: "\u65C1\u767D"
+    text: "\u5979\u8F6C\u8FC7\u8138\uFF0C\u770B\u89C1\u6211\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 194
+    nextRow: 195
+    sequence: "\u5C0F\u89C9\u4FA7\u8EAB"
+    character: "\u65C1\u767D"
+    text: "\u5B89\u9759\u4E86\u51E0\u79D2\u949F\uFF0C\u5979\u7728\u4E86\u7728\u773C\uFF0C\u5FFD\u7136\u5C16\u53EB\u8D77\u6765\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 195
+    nextRow: 196
+    sequence: "\u5C0F\u89C9\u5F20\u53E3"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u5440\uFF01\uFF01\uFF01\u2014\u2014\u300D\uFF08\u5C4F\u5E55\u6296\u52A8\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG\uFF0CShake"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 196
+    nextRow: 197
+    sequence: "\u66F4\u8863\u5BA4"
+    character: "\u65C1\u767D"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 197
+    nextRow: 0
+    sequence: "\u66F4\u8863\u5BA4"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u4F60\u2026\u4F60\u600E\u4E48\u8FDB\u6765\u4E86\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices:
+    - text: "\u300C\u8FD9\u91CC\u5176\u5B9E\u662F\u7537\u751F\u66F4\u8863\u5BA4\u54E6~\u89C9\u5C0F\u59D0\u3002\u300D"
+      targetRow: 198
+    - text: "\u300C\u5176\u5B9E\u2026\u6211\u4ECE\u5C0F\u5C31\u4EE5\u4E3A\u81EA\u5DF1\u662F\u5973\u5B69\u5B50\u2026\u300D"
+      targetRow: 217
+    - text: "\u300C\u54E6\u5440\uFF0C\u6211\u53EA\u662F\u4E00\u4E2A\u8FF7\u8DEF\u7684\u6D6A\u5B50\u7F62\u4E86\u3002\u300D"
+      targetRow: 238
+    - text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+      targetRow: 280
+    changes: []
+  - excelRow: 198
+    nextRow: 199
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u8FD9\u91CC\u662F\u7537\u751F\u6362\u8863\u95F4\u5662~\u89C9\u5C0F\u59D0~\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 199
+    nextRow: 200
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u8BF6\uFF1F\uFF01\u2026\u62B1\u2026\u62B1\u6B49\uFF01\u771F\u7684\u5F88\u62B1\u6B49\uFF01\u300D\uFF08\u5C0F\u89C9><\u8138\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 200
+    nextRow: 201
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u6CA1\u5173\u7CFB\uFF01\u6211\u53EF\u4E0D\u662F\u4E0D\u901A\u60C5\u8FBE\u7406\u7684\u4EBA\uFF0C\u65E2\u7136\u89C9\u5C0F\u59D0\u5728\u66F4\u8863\u4E86\uFF0C\u90A3\u6211\u5C31\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 201
+    nextRow: 202
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u65C1\u767D"
+    text: "\u6211\u6293\u8D77\u8863\u670D\uFF0C\u6162\u60A0\u60A0\u8F6C\u8FC7\u62D0\u89D2\uFF0C\u7A81\u7136\u7206\u53D1\u52A0\u901F\uFF0C\u51B2\u5411\u95E8\u53E3\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 202
+    nextRow: 203
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u65C1\u767D"
+    text: "\u8349\u8349\u8349\uFF01\u6211\u600E\u4E48\u8FDB\u5973\u751F\u66F4\u8863\u5BA4\u4E86\uFF01\u8D81\u6CA1\u4EBA\u53D1\u73B0\u8981\u8D76\u7D27\u6E9C\uFF01\u2026"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 203
+    nextRow: 204
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u65C1\u767D"
+    text: "\u4F46\u662F\u5C31\u5728\u6211\u63E1\u4F4F\u95E8\u628A\u624B\u7684\u5239\u90A3\uFF0C\u4E00\u53EA\u624B\u6293\u4F4F\u4E86\u6211\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 204
+    nextRow: 205
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u4F60\u60F3\u9003\u8D70\u5417\uFF0C\u5C31\u5728\u5077\u7AA5\u5C0F\u89C9\u66F4\u8863\u4E4B\u540E\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 205
+    nextRow: 206
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u5582\u2026\u8FD9\u4E8B\u4F60\u53EF\u4E0D\u80FD\u5230\u5904\u4E71\u8BB2\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 206
+    nextRow: 207
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u4E0D~\u53EF\u4EE5\u5466~\u6211\u73B0\u5728\u5C31\u8981\u544A\u8BC9\u5916\u9762\u7684\u59B9\u59B9\u9171~\u300D\uFF08\u7B11\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 207
+    nextRow: 208
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u522B\uFF01\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 208
+    nextRow: 209
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u597D\u5440\uFF0C\u9664\u975E\u4F60\u7B54\u5E94\u6211\u4E00\u4EF6\u4E8B\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 209
+    nextRow: 210
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u4EC0\u4E48\u4E8B\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 210
+    nextRow: 211
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 211
+    nextRow: 212
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u4EC0\u2026\u4E48\uFF1F\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 212
+    nextRow: 213
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u65C1\u767D"
+    text: "\u5494\uFF01"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 213
+    nextRow: 214
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u65C1\u767D"
+    text: "\u624B\u4E0B\u4E00\u60CA\uFF0C\u5DF2\u7ECF\u5C06\u95E8\u6253\u5F00\u4E00\u9053\u7F1D\uFF0C\u5916\u9762\uFF0C\u53EA\u6709\u7EAF\u4E43\u4EE5\u5E74\u5E7C\u7684\u773C\u795E\u671B\u7740\u6211\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 214
+    nextRow: 215
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u54C7\uFF01\u6B27\u5C3C\u9171\uFF0C\u6CA1\u6709\u6362\u8863\u670D\u5417\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 215
+    nextRow: 216
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u2026\u5FEB\u8D70\u7EAF\u4E43\uFF01\u8FD9\u91CC\u9762\u6709\u70B9\u4E0D\u5999\u2026\u300D\uFF08\u5C4F\u5E55\u6296\u52A8\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 216
+    nextRow: 0
+    sequence: "\u66F4\u8863\u5BA4A"
+    character: "\u65C1\u767D"
+    text: "\u6211\u62C9\u7740\u59B9\u59B9\uFF0C\u4ED3\u7687\u9003\u8D70\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 217
+    nextRow: 218
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u5450\uFF0C\u89C9\u9171\u2026\u5982\u679C\u662F\u89C9\u7684\u8BDD\uFF0C\u4E00\u5B9A\u4F1A\u660E\u767D\u7684\u5427\uFF01\u5176\u5B9E\uFF0C\u6211\u4ECE\u5C0F\u5C31\u4EE5\u4E3A\u81EA\u5DF1\u662F\u5973\u5B69\u5B50\uFF0C\u53EF\u662F\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 218
+    nextRow: 219
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u53EF\u2026\u662F\uFF1F\u300D\uFF08\u89C9\u9ED1\u7EBF\u8138\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 219
+    nextRow: 220
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u53EF\u662F\u8EAB\u8FB9\u7684\u4EBA\uFF0C\u603B\u8BF4\u6211\u662F\u602A\u80CE\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 220
+    nextRow: 221
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u4F60\u51B7\u9759\u4E00\u4E0B{playerName}\u540C\u5B66\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 221
+    nextRow: 222
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u6211\u771F\u7684\u662F\u5973\u5B69\u5B50\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 222
+    nextRow: 223
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u771F\u7684\u54A9\uFF1F\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 223
+    nextRow: 224
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u65C1\u767D"
+    text: "\u6211\u770B\u89C1\u5979\u7B11\u4E86\uFF0C\u5FC3\u5934\u5347\u8D77\u4E00\u80A1\u4E0D\u7965\u7684\u9884\u611F\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 224
+    nextRow: 225
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u90A3...{playerName}\u540C\u5B66\uFF0C\u6211\u770B\u89C1\u4F60\u9886\u7684\u4F3C\u4E4E\u662F\u7537\u751F\u5236\u670D\u5440\uFF1F\u300D\uFF08\u5C0F\u89C9\u5FAE\u7B11\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 225
+    nextRow: 226
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u554A\u2026\u8FD9\u4E2A\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 226
+    nextRow: 227
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u5662\uFF01\u6211\u660E\u767D\u5566\uFF0C{playerName}\u540C\u5B66\u4E0D\u53EA\u6709\u6027\u522B\u8BA4\u77E5\u969C\u788D\u75C7\uFF0C\u8FD8\u662F\u5F02\u88C5\u7656\u548C\u540C\u6027\u604B\uFF0C\u5BF9\u5427\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 227
+    nextRow: 228
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u6211\u2026\u4EBA\u5BB6\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 228
+    nextRow: 229
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u6CA1\u6709\u5173\u7CFB\u54E6~{playerName}\u540C\u5B66\u8981\u662F\u5BB3\u7F9E\u7684\u8BDD\uFF0C\u6211\u53EF\u4EE5\u5E2E\u5FD9\u544A\u8BC9\u8001\u5E08\u540C\u5B66\u4EEC...\u300D\uFF08\u5C0F\u89C9\u5410\u820C\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 229
+    nextRow: 230
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u554A\u554A\u554A\u4E0D\u7528\u4E86\u89C9\u9171\uFF01\u6211\u60F3\u8D77\u6765\u6211\u8FD8\u6709\u4E8B\u5148\u8D70\u4E86\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 230
+    nextRow: 231
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u65C1\u767D"
+    text: "\u6211\u6293\u8D77\u8863\u670D\uFF0C\u51B2\u5411\u95E8\u53E3\uFF0C\u8FD8\u542C\u5230\u8EAB\u540E\u5FCD\u4E0D\u4F4F\u7684\u5A07\u7B11\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 231
+    nextRow: 232
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u6162\u8D70\u54E6\uFF0C{playerName}\u9171~\u300D\uFF08\u5C0F\u89C9\u5FAE\u7B11\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 232
+    nextRow: 233
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u65C1\u767D"
+    text: "\u5C31\u5728\u6211\u5C06\u8DD1\u8DEF\u524D\uFF0C\u4E00\u4E2A\u6D51\u8EAB\u9ED1\u767D\u7684\u59B9\u5B50\u62E6\u4F4F\u4E86\u6211\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 233
+    nextRow: 234
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u7AD9\u4F4F\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 234
+    nextRow: 235
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u4F60\u662F\u8C01\uFF01\u4E3A\u4EC0\u4E48\u62E6\u6211\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 235
+    nextRow: 236
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u95EE\u5F97\u597D\uFF01\u6211\u662F\u5C0F\u89C9\u7684Master\u3002\u662F\u4E3A\u4F60\u4FB5\u72AF\u5C0F\u89C9\u7684\u7F6A\u884C\u800C\u5E26\u6765\u5BA1\u5224\u7684\u672B\u65E5\u4F7F\u8005\uFF01\u300D\uFF08\u6234\u58A8\u955C\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 236
+    nextRow: 237
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u518D\u89C1\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 237
+    nextRow: 0
+    sequence: "\u66F4\u8863\u5BA4B"
+    character: "\u65C1\u767D"
+    text: "\u6211\u593A\u95E8\u800C\u9003\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 238
+    nextRow: 239
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u54E6\u5440\uFF0C\u6211\u53EA\u662F\u4E00\u4E2A\u8FF7\u8DEF\u7684\u6D6A\u5B50\u7F62\u4E86\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 239
+    nextRow: 240
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u6211\u64A9\u8D77\u5934\u53D1\uFF0C\u611F\u89C9\u81EA\u5DF1\u5E05\u5F97\u6279\u7206\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 240
+    nextRow: 241
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u540C\u5B66\u2026\u6211\u5728\u6362\u8863\u670D\u2026\u4F60\u4E0D\u8981\u8FD9\u6837\u76EF\u7740\u6211\u597D\u5417\u2026\u300D\uFF08\u5C0F\u89C9><\u8138\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 241
+    nextRow: 242
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u5F53\u7136\uFF01\u5B88\u62A4\u5982\u6B64\u7F8E\u4E3D\u7684\u5C11\u5973\u66F4\u8863\u662F\u6211\u7B49\u7684\u8363\u5E78\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 242
+    nextRow: 243
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u4E0D...\u4E0D\u7528\u4EC0\u4E48\u5B88\u62A4\u5566\uFF01\u4F60\u5FEB\u8D70\u5566\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 243
+    nextRow: 244
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u4E3B\u89D2"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 244
+    nextRow: 245
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u554A\u554A\u554A...\u771F\u662F...\u592A\u7CDF\u7CD5\u4E86...\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 245
+    nextRow: 246
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u6211\u7A81\u7136\u611F\u5230\u6709\u4EC0\u4E48\u4E0D\u5BF9\uFF0C\u5DE6\u987E\u53F3\u76FC\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 246
+    nextRow: 247
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u7B49\u7B49...\u8FD9\u91CC\u2026\u7ADF\u7136\u662F\u5973\u751F\u6362\u8863\u95F4\u5417\uFF1F..."
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 247
+    nextRow: 248
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u5973\u751F\u66F4\u8863\u95F4\uFF01\u800C\u4E14\uFF0C\u8FD8\u649E\u89C1\u4E86\u521A\u521A\u6709\u597D\u611F\u7684\u5973\u751F\uFF01"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 248
+    nextRow: 249
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u5FC3 \u788E"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 249
+    nextRow: 250
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u5F00\u5B66\u7B2C\u4E00\u5929\u662F\u4EC0\u4E48\u6837\u7684\u4F53\u9A8C\uFF1F\u6CFB\u836F\uFF0C\u5DF2\u7ECF\u88AB\u9000\u5B66\u4E86\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 250
+    nextRow: 251
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u600E\u4E48\u4E86\uFF1F\u5C0F\u89C9\uFF1F\u2026\u300D\uFF08\u5C4F\u5E55\u6296\u52A8\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 251
+    nextRow: 252
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u6709\u4EBA\u8FDB\u6765\u4E86\uFF01"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 252
+    nextRow: 253
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u2026{playerName}\u540C\u5B66\uFF01\u5FEB\u8FC7\u6765\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 253
+    nextRow: 254
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u8BA9\u6211\u60F3\u4E0D\u5230\u7684\u662F\uFF0C\u53E4\u660E\u5730\u89C9\u7ADF\u7136\u6253\u5F00\u5979\u65C1\u8FB9\u7684\u7ACB\u5F0F\u8863\u67DC\uFF0C\u62DB\u547C\u6211\u8FC7\u6765\uFF01"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 254
+    nextRow: 255
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u6765\u4E0D\u53CA\u601D\u8003\uFF0C\u6211\u8EB2\u8FDB\u8863\u67DC\uFF0C\u53E4\u660E\u5730\u89C9\u8F7B\u8F7B\u5173\u4E0A\u95E8\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "\uFF08\u5C4F\u5E55\u4ECE\u53F3\u5230\u5DE6\u53D8\u9ED1\uFF09"
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 255
+    nextRow: 256
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u6CA1\u4E8B\u5427\uFF1F\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 256
+    nextRow: 257
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u6211\u2026\u6CA1\u4E8B\uFF01\u53EA\u662F\u9000\u7684\u65F6\u5019\u7ECA\u4E86\u4E00\u8DE4\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 257
+    nextRow: 258
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u6211\u542C\u5230\u53E4\u660E\u5730\u89C9\u548C\u5916\u9762\u7684\u4EBA\u8BF4\u7740\u4EC0\u4E48\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 258
+    nextRow: 259
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u4F3C\u4E4E\u6CA1\u53D1\u73B0\u6211\uFF0C\u6211\u7EC8\u4E8E\u677E\u4E86\u53E3\u6C14\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 259
+    nextRow: 260
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u4F46\u662F\u5FFD\u7136\u4E00\u53EA\u624B\u6342\u4F4F\u4E86\u6211\u7684\u5634\uFF01"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 260
+    nextRow: 261
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u4E0D\u8BB8\u8BF4\u8BDD\uFF01\u8BF4\u8D77\u6765\uFF0C\u4EC0\u4E48\u6837\u7684\u53D8\u6001\u4F1A\u6F5C\u5165\u5973\u751F\u66F4\u8863\u5BA4\uFF0C\u8FD8\u8EB2\u8FDB\u5C0F\u89C9\u7684\u8863\u67DC\u91CC\u5462\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 261
+    nextRow: 262
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u5367\u69FD\uFF1F...\u4F60\uFF01...\u4F60\u5C31\u4E0D\u8981\u8D3C\u558A\u6349\u8D3C\u4E86\u597D\u5427\uFF1F\uFF01...\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 262
+    nextRow: 263
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 263
+    nextRow: 264
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u8FD9\u53EF\u76F8\u5F53\u4E0D\u5999\u554A\uFF01\u53E4\u660E\u5730\u540C\u5B66\u7684\u8863\u67DC\u91CC\u7ADF\u8FD8\u85CF\u7740\u4E00\u4E2A\u5973\u751F\uFF01"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 264
+    nextRow: 265
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 265
+    nextRow: 266
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 266
+    nextRow: 267
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 267
+    nextRow: 268
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u5582\uFF01\u522B\u52A8\uFF01\u4E0D\u7136\u8981\u88AB\u53D1\u73B0\u4E86\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 268
+    nextRow: 269
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 269
+    nextRow: 270
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 270
+    nextRow: 271
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u597D\u5566{playerName}\u540C\u5B66\uFF0C\u53EF\u4EE5\u51FA\u6765\u4E86\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 271
+    nextRow: 272
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u542C\u5230\u53E4\u660E\u5730\u89C9\u7684\u58F0\u97F3\uFF0C\u6211\u6323\u8131\u540E\u9762\u6349\u5F04\u6211\u7684\u624B\uFF0C\u6253\u5F00\u4E00\u70B9\u70B9\u67DC\u95E8\uFF0C\u6162\u6162\u8D70\u51FA\u6765\uFF0C\u518D\u5C0F\u5FC3\u5173\u4E0A\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 272
+    nextRow: 273
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u53E4\u660E\u5730\u89C9\uFF0C\u6B64\u523B\u7A7F\u597D\u4E86\u8863\u670D\uFF0C\u6B63\u5728\u770B\u7740\u6211\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 273
+    nextRow: 274
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u5BF9\u4E0D\u8D77\u2026\u8C22\u8C22\u4F60\u2026\u53E4\u660E\u5730\u540C\u5B66\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 274
+    nextRow: 275
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u4F60\u2026\u4F60\u5148\u628A\u8863\u670D\u7A7F\u4E0A\u5427\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 275
+    nextRow: 276
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u554A\uFF01\u62B1\u6B49\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 276
+    nextRow: 277
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u55EF\u2026\u867D\u7136\u770B\u5973\u751F\u6362\u8863\u670D\u5F88\u4E0D\u793C\u8C8C\uFF0C\u4F46\u6211\u4E5F\u77E5\u9053{playerName}\u540C\u5B66\u4E0D\u662F\u6545\u610F\u7684\u2026\u4E3A\u8FD9\u4E2A\u7B2C\u4E00\u5929\u5C31\u88AB\u9000\u5B66\u5C31\u592A\u4E25\u9177\u4E86\u2026\u4F46\u662F\uFF0C\u4E0B\u4E0D\u4E3A\u4F8B\u54E6\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 277
+    nextRow: 278
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u5F53\u7136\uFF01\u4EE5\u540E\u4E0D\u53EF\u80FD\u53D1\u751F\u8FD9\u6837\u7684\u4E8B\u4E86\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 278
+    nextRow: 279
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u65C1\u767D"
+    text: "\u6211\u5BF9\u5929\u53D1\u8A93\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 279
+    nextRow: 0
+    sequence: "\u66F4\u8863\u5BA4C"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u5657\u2026\u597D\u4E86\u53EF\u4EE5\u4E86\uFF0C\u90A3\u518D\u89C1\u5566\uFF0C{playerName}\u540C\u5B66\u3002\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 280
+    nextRow: 281
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u65C1\u767D"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 281
+    nextRow: 282
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u65C1\u767D"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 282
+    nextRow: 283
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u4F60\u2026\u4F60\u2026\u300D\uFF08\u5C0F\u89C9\u9ED1\u8138\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 283
+    nextRow: 284
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u4E3B\u89D2"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 284
+    nextRow: 285
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u53E4\u660E\u5730\u89C9"
+    text: "\u300C\u51FA\u53BB\uFF01\uFF01\uFF01\u300D\uFF08\u5C4F\u5E55\u5168\u9ED1\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 285
+    nextRow: 286
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u65C1\u767D"
+    text: "\u773C\u524D\u4E00\u9ED1\uFF0C\u6211\u6655\u4E86\u8FC7\u53BB\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 286
+    nextRow: 287
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6B27\u5C3C\u9171\u2026\u6B27\u5C3C\u9171\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 287
+    nextRow: 288
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u65C1\u767D"
+    text: "\u4E0D\u77E5\u8FC7\u53BB\u591A\u4E45\uFF0C\u6211\u4F3C\u4E4E\u542C\u89C1\u53EF\u7231\u59B9\u59B9\u7684\u58F0\u97F3\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 288
+    nextRow: 289
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6B27\u5C3C\u9171\uFF01\u2026\u6B27\u5C3C\u9171\uFF01\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 289
+    nextRow: 290
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u65C1\u767D"
+    text: "\u7741\u5F00\u773C\uFF0C\u539F\u6765\u6211\u8EBA\u5728\u5B66\u6821\u7684\u533B\u52A1\u5BA4\u5E8A\u4F4D\u4E0A\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: "\u5207CG"
+    backgroundFile: "\u3010\u5360\u4F4D\u7B26\u3011"
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 290
+    nextRow: 291
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u545C\u545C\u545C\u2026\u6B27\u5C3C\u9171\u2026\u4F60\u7EC8\u4E8E\u9192\u4E86\u2026\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 291
+    nextRow: 292
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u59B9\u59B9\u9171\uFF0C\u4F60\u9AD8\u5174\u5F97\u592A\u65E9\u8FA3\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 292
+    nextRow: 293
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u65C1\u767D"
+    text: "\u533B\u52A1\u5BA4\u95E8\u53E3\uFF0C\u4E00\u4E2A\u6D51\u8EAB\u9ED1\u767D\u7684\u59B9\u5B50\u5927\u6447\u5927\u6446\u5730\u8D70\u8FDB\u6765\u3002"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 293
+    nextRow: 294
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u4F60\u662F\u8C01\uFF01\u4E0D\u8981\u9760\u8FD1\u6B27\u5C3C\u9171\uFF01\u300D\uFF08\u7EAF\u4E43\u751F\u6C14\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 294
+    nextRow: 295
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u54FC\uFF0C\u6655\u5012\u4E4B\u524D\u8BA9\u4F60\u770B\u5230\u4E86\u4E0D\u8BE5\u770B\u7684\u4E1C\u897F\u5462\uFF0C\u6211\u5C31\u662F\u6765\u53D6\u4F60\u5C51\u547D\u7684\u6B7B\u795E\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 295
+    nextRow: 296
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u4E3B\u89D2"
+    text: "\u300C\u4F60\u600E\u4E48\u77E5\u9053\uFF01\u300D"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 296
+    nextRow: 297
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\uFF1F\uFF1F\uFF1F"
+    text: "\u300C\u6211\u5C31\u5728\u5C0F\u89C9\u7684\u8863\u67DC\u91CC\uFF0C\u6211\u5F53\u7136\u77E5\u9053\uFF01\u300D\uFF08\u58A8\u955C\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 297
+    nextRow: 298
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u6B27\u5C3C\u9171\u2026\u8FD9\u5230\u5E95\u662F\u600E\u4E48\u56DE\u4E8B\u2026\u300D\uFF08\u7EAF\u4E43\u4F4E\u843D\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 298
+    nextRow: 299
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u4E3B\u89D2"
+    text: "\u3010\u8FDD\u89C4\u63CF\u5199\u3011"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  - excelRow: 299
+    nextRow: 0
+    sequence: "\u66F4\u8863\u5BA4D"
+    character: "\u7EAF\u4E43"
+    text: "\u300C\u8BF6\uFF1F\u300D\uFF08\u7EAF\u4E43\u60CA\u5413\uFF09"
+    voiceFile: 
+    portraitFile: 
+    effect: 
+    backgroundFile: 
+    effectDuration: 1
+    voice: {fileID: 0}
+    portrait: {fileID: 0}
+    background: {fileID: 0}
+    choices: []
+    changes: []
+  importNotes:
+  - "NextRow \u6307\u5B9A\u4E0B\u4E00\u884C\uFF1B\u9009\u9879\u884C\u548C\u5F53\u524D\u5185\u5BB9\u7EC8\u70B9\u4E3A
+    0\u3002BackgroundFile \u7A7A\u767D\u6CBF\u7528\u80CC\u666F\uFF0C\u3010\u5360\u4F4D\u7B26\u3011\u6E05\u7A7A\u80CC\u666F\u3002"
+  - "\u5F53\u524D\u8868\u683C\u672B\u5C3E\u4EC5\u8868\u793A\u5DF2\u7F16\u5199\u5185\u5BB9\u7ED3\u675F\uFF0C\u4E0D\u81EA\u52A8\u767B\u8BB0\u4E3A
+    Bad / Normal / True End\u3002"
