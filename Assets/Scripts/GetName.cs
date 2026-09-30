@@ -12,9 +12,9 @@ public class GetName : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        NameText = GameObject.Find("CText").GetComponent<Text>();
-        NameText.text = PlayerPrefs.GetString("PlayerName_Temp");
-        Debug.Log(NameText.text);
+        var target = GameObject.Find("CText");
+        NameText = target ? target.GetComponent<Text>() : null;
+        if (NameText) NameText.text = ZZVan.Galgame.GameSession.Instance.State.playerName;
     }
 
     // Update is called once per frame

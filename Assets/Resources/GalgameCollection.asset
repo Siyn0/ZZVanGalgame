@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26d210c80e84ba4baaa59dc6202e81e, type: 3}
+  m_Name: GalgameCollection
+  m_EditorClassIdentifier: 
+  entries:
+  - id: achievement.first_dialogue
+    title: "\u6545\u4E8B\u5F00\u59CB"
+    description: "\u9605\u8BFB\u7B2C\u4E00\u53E5\u5267\u60C5\u3002"
+    kind: 0
+    image: {fileID: 0}
+    music: {fileID: 0}
+    availableFromStart: 0
+  - id: character.sister
+    title: "\u59B9\u59B9"
+    description: "\u4E09\u4F4D\u4E3B\u8981\u89D2\u8272\u4E4B\u4E00\u3002"
+    kind: 3
+    image: {fileID: 21300000, guid: c30a267bde3eecc449b4ff8fdb37a986, type: 3}
+    music: {fileID: 0}
+    availableFromStart: 0
+  - id: character.satori
+    title: "\u53E4\u660E\u5730\u89C9"
+    description: "\u4E09\u4F4D\u4E3B\u8981\u89D2\u8272\u4E4B\u4E00\u3002"
+    kind: 3
+    image: {fileID: 0}
+    music: {fileID: 0}
+    availableFromStart: 0
+  - id: character.zz
+    title: ZZ
+    description: "\u4E09\u4F4D\u4E3B\u8981\u89D2\u8272\u4E4B\u4E00\u3002"
+    kind: 3
+    image: {fileID: 0}
+    music: {fileID: 0}
+    availableFromStart: 0
+  - id: cg.eat
+    title: "\u7528\u9910"
+    description: 
+    kind: 1
+    image: {fileID: 21300000, guid: b0a5011d954ce2940aae1abf83c8697a, type: 3}
+    music: {fileID: 0}
+    availableFromStart: 0
+  - id: music.miao5
+    title: miao5
+    description: 
+    kind: 2
+    image: {fileID: 0}
+    music: {fileID: 8300000, guid: 0d4952ce864d2694da71ce9f050e5fc7, type: 3}
+    availableFromStart: 0
+  - id: achievement.minigame
+    title: "\u6311\u6218\u6210\u529F"
+    description: "\u8D62\u5F97\u4E00\u6B21\u5C0F\u6E38\u620F\u3002"
+    kind: 0
+    image: {fileID: 0}
+    music: {fileID: 0}
+    availableFromStart: 0
+  - id: demo.ending.bad
+    title: "Bad End \xB7 \u7CFB\u7EDF\u6F14\u793A"
+    description: 
+    kind: 4
+    image: {fileID: 0}
+    music: {fileID: 0}
+    availableFromStart: 0
+  - id: demo.ending.normal
+    title: "Normal End \xB7 \u7CFB\u7EDF\u6F14\u793A"
+    description: 
+    kind: 5
+    image: {fileID: 0}
+    music: {fileID: 0}
+    availableFromStart: 0
+  - id: demo.ending.true
+    title: "True End \xB7 \u7CFB\u7EDF\u6F14\u793A"
+    description: 
+    kind: 6
+    image: {fileID: 0}
+    music: {fileID: 0}
+    availableFromStart: 0

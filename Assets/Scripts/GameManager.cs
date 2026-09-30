@@ -1,95 +1,46 @@
-using System.ComponentModel.Design;
-using System.Security.Cryptography.X509Certificates;
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Dynamic;
-using UnityEngine.UI;
-
-
+using ZZVan.Galgame;
 public class GameManager : MonoBehaviour
 {
-
-    public bool isPaused = false;
+    public bool isPaused;
     public GameObject menu;
-
-    private Image SaveLog;
-
-    void Start()
+    [Range(1, SaveRepository.SlotCount)] public int selectedSlot = 1;
+    private Transform saveLog;
+    private void Start()
     {
-        SaveLog = menu.transform.Find("SaveLog").GetComponent<Image>();
+        var session = GameSession.Instance;
+        if (menu) saveLog = menu.transform.Find("SaveLog");
         ContinueGame();
     }
-
-    void Awake()
-    {
-        Pause();
-    }
-
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Pause();
+            if (isPaused) ContinueGame();
+            else { isPaused = true; if (menu) menu.SetActive(true); Time.timeScale = 0; }
         }
     }
-    private void Pause()
-    {
-        isPaused = true;
-        menu.SetActive(true);
-        Time.timeScale = 0;
-    }
-
-    private void UnPause()
-    {
-        SaveLog.transform.localScale = new Vector3(0,0,0);
-        isPaused = false;
-        menu.SetActive(false);
-        Time.timeScale = 1;
-    }
-
     public void ContinueGame()
     {
-        UnPause();
+        if (saveLog) saveLog.localScale = Vector3.zero;
+        isPaused = false;
+        if (menu) menu.SetActive(false);
+        Time.timeScale = 1;
     }
-
     public void SaveGame()
     {
-        
-        PlayerPrefs.SetString("PlayerName_Save", PlayerPrefs.GetString("PlayerName_Temp"));
-        PlayerPrefs.SetString("SceneName",SceneManager.GetActiveScene().name);
-        PlayerPrefs.SetInt("San_Save",PlayerPrefs.GetInt("San_Temp"));
-        PlayerPrefs.SetInt("MeiMei_Save",PlayerPrefs.GetInt("MeiMei_Temp"));
-        PlayerPrefs.SetInt("ZZ_Save",PlayerPrefs.GetInt("ZZ_Temp"));
-        PlayerPrefs.SetInt("Jue_Save",PlayerPrefs.GetInt("Jue_Temp"));
-
-        Debug.Log("PlayerName_Save:"+PlayerPrefs.GetString("PlayerName_Save"));
-        Debug.Log("SceneName:"+PlayerPrefs.GetString("SceneName"));
-        SaveLog.transform.localScale = new Vector3(1,1,1);
-        PlayerPrefs.Save();
+        try { GameSession.Instance.Save(selectedSlot); if (saveLog) saveLog.localScale = Vector3.one; }
+        catch (Exception e) { Debug.LogError("存档失败：" + e.Message); }
     }
-
+    public void SelectSlot(int slot) { selectedSlot = Mathf.Clamp(slot, 1, SaveRepository.SlotCount); }
     public void LoadGame()
     {
-        PlayerPrefs.SetString("PlayerName_Temp", PlayerPrefs.GetString("PlayerName_Save"));
-        PlayerPrefs.SetInt("San_Temp",PlayerPrefs.GetInt("San_Save"));
-        PlayerPrefs.SetInt("MeiMei_Temp",PlayerPrefs.GetInt("MeiMei_Save"));
-        PlayerPrefs.SetInt("ZZ_Temp",PlayerPrefs.GetInt("ZZ_Save"));
-        PlayerPrefs.SetInt("Jue_Temp",PlayerPrefs.GetInt("Jue_Save"));
-
-        Debug.Log("PlayerName:"+PlayerPrefs.GetString("PlayerName_Save"));
-        Debug.Log("PlayerName_Temp:"+PlayerPrefs.GetString("PlayerName_Temp"));
-        SceneManager.LoadScene(PlayerPrefs.GetString("SceneName"));
+        if (!GameSession.Instance.Load(selectedSlot)) Debug.LogWarning("档位为空、损坏，或存档场景未加入 Build Settings。");
     }
-
     public void MainMenu()
     {
-
-        SceneManager.LoadScene("0");
-
+        ContinueGame(); GameSession.Instance.ReturnToTitle(); SceneManager.LoadScene("0");
     }
-
-    
 }
-

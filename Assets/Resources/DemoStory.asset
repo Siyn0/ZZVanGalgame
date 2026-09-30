@@ -1,0 +1,416 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 270adde5a627b4d4fb889cbe13dbbac9, type: 3}
+  m_Name: DemoStory
+  m_EditorClassIdentifier: 
+  storyId: demo
+  startNode: intro
+  nodes:
+  - id: intro
+    kind: 0
+    speaker: 2
+    speakerName: 
+    text: "{playerName}\uFF0C\u6765\u8BD5\u8BD5\u5C0F\u6E38\u620F\u5427\u3002\u6BCF\u5B8C\u6210\u4E00\u4E2A\u6311\u6218\uFF0CSAN
+      \u52A0 1\u3002"
+    background: {fileID: 0}
+    portrait: {fileID: 21300000, guid: c30a267bde3eecc449b4ff8fdb37a986, type: 3}
+    voice: {fileID: 0}
+    music: {fileID: 0}
+    musicCommand: 0
+    loopMusic: 1
+    fadeSeconds: 1
+    next: choose
+    otherwise: 
+    condition:
+      any: 0
+      negate: 0
+      conditions: []
+      groups: []
+    changes: []
+    unlocks: []
+    choices: []
+    minigameId: 
+    success: 
+    failure: 
+    endingId: 
+  - id: choose
+    kind: 1
+    speaker: 0
+    speakerName: 
+    text: "\u9009\u62E9\u6311\u6218\uFF0C\u6216\u67E5\u770B\u7ED3\u5C40\u6F14\u793A\u3002"
+    background: {fileID: 0}
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    music: {fileID: 0}
+    musicCommand: 0
+    loopMusic: 1
+    fadeSeconds: 1
+    next: 
+    otherwise: 
+    condition:
+      any: 0
+      negate: 0
+      conditions: []
+      groups: []
+    changes: []
+    unlocks: []
+    choices:
+    - text: "\u79FB\u52A8\u9776\u5C04\u51FB"
+      target: shooting
+      condition:
+        any: 0
+        negate: 0
+        conditions: []
+        groups: []
+      changes: []
+    - text: "\u7FFB\u724C\u8BB0\u5FC6"
+      target: memory
+      condition:
+        any: 0
+        negate: 0
+        conditions: []
+        groups: []
+      changes: []
+    - text: "\u8DF3\u8DC3\u6311\u6218"
+      target: platformer
+      condition:
+        any: 0
+        negate: 0
+        conditions: []
+        groups: []
+      changes: []
+    - text: "\u67E5\u770B\u5F53\u524D\u7ED3\u5C40"
+      target: ending.check
+      condition:
+        any: 0
+        negate: 0
+        conditions: []
+        groups: []
+      changes: []
+    - text: "\u9690\u85CF\u9009\u9879\uFF1A\u5F00\u542F\u59B9\u59B9\u7EBF\uFF08SAN
+        \u2265 2\uFF09"
+      target: route
+      condition:
+        any: 0
+        negate: 0
+        conditions:
+        - variable: 0
+          comparison: 3
+          value: 2
+        groups: []
+      changes: []
+    minigameId: 
+    success: 
+    failure: 
+    endingId: 
+  - id: shooting
+    kind: 3
+    speaker: 0
+    speakerName: 
+    text: 
+    background: {fileID: 0}
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    music: {fileID: 0}
+    musicCommand: 0
+    loopMusic: 1
+    fadeSeconds: 1
+    next: 
+    otherwise: 
+    condition:
+      any: 0
+      negate: 0
+      conditions: []
+      groups: []
+    changes: []
+    unlocks: []
+    choices: []
+    minigameId: shooting
+    success: won
+    failure: lost
+    endingId: 
+  - id: memory
+    kind: 3
+    speaker: 0
+    speakerName: 
+    text: 
+    background: {fileID: 0}
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    music: {fileID: 0}
+    musicCommand: 0
+    loopMusic: 1
+    fadeSeconds: 1
+    next: 
+    otherwise: 
+    condition:
+      any: 0
+      negate: 0
+      conditions: []
+      groups: []
+    changes: []
+    unlocks: []
+    choices: []
+    minigameId: memory
+    success: won
+    failure: lost
+    endingId: 
+  - id: platformer
+    kind: 3
+    speaker: 0
+    speakerName: 
+    text: 
+    background: {fileID: 0}
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    music: {fileID: 0}
+    musicCommand: 0
+    loopMusic: 1
+    fadeSeconds: 1
+    next: 
+    otherwise: 
+    condition:
+      any: 0
+      negate: 0
+      conditions: []
+      groups: []
+    changes: []
+    unlocks: []
+    choices: []
+    minigameId: platformer
+    success: won
+    failure: lost
+    endingId: 
+  - id: won
+    kind: 0
+    speaker: 0
+    speakerName: 
+    text: "\u6311\u6218\u6210\u529F\uFF01SAN +1\u3002"
+    background: {fileID: 0}
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    music: {fileID: 0}
+    musicCommand: 0
+    loopMusic: 1
+    fadeSeconds: 1
+    next: choose
+    otherwise: 
+    condition:
+      any: 0
+      negate: 0
+      conditions: []
+      groups: []
+    changes:
+    - variable: 0
+      add: 1
+      value: 1
+    unlocks:
+    - achievement.minigame
+    choices: []
+    minigameId: 
+    success: 
+    failure: 
+    endingId: 
+  - id: lost
+    kind: 0
+    speaker: 0
+    speakerName: 
+    text: "\u6311\u6218\u7ED3\u675F\uFF0C\u518D\u8BD5\u4E00\u6B21\u5427\u3002"
+    background: {fileID: 0}
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    music: {fileID: 0}
+    musicCommand: 0
+    loopMusic: 1
+    fadeSeconds: 1
+    next: choose
+    otherwise: 
+    condition:
+      any: 0
+      negate: 0
+      conditions: []
+      groups: []
+    changes: []
+    unlocks: []
+    choices: []
+    minigameId: 
+    success: 
+    failure: 
+    endingId: 
+  - id: route
+    kind: 0
+    speaker: 2
+    speakerName: 
+    text: "\u9690\u85CF\u5267\u60C5\u5DF2\u89E6\u53D1\uFF0C\u59B9\u59B9\u7EBF\u5DF2\u5F00\u542F\u3002"
+    background: {fileID: 0}
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    music: {fileID: 0}
+    musicCommand: 0
+    loopMusic: 1
+    fadeSeconds: 1
+    next: choose
+    otherwise: 
+    condition:
+      any: 0
+      negate: 0
+      conditions: []
+      groups: []
+    changes:
+    - variable: 4
+      add: 0
+      value: 1
+    unlocks: []
+    choices: []
+    minigameId: 
+    success: 
+    failure: 
+    endingId: 
+  - id: ending.check
+    kind: 2
+    speaker: 0
+    speakerName: 
+    text: 
+    background: {fileID: 0}
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    music: {fileID: 0}
+    musicCommand: 0
+    loopMusic: 1
+    fadeSeconds: 1
+    next: true
+    otherwise: normal.check
+    condition:
+      any: 0
+      negate: 0
+      conditions:
+      - variable: 4
+        comparison: 0
+        value: 1
+      groups: []
+    changes: []
+    unlocks: []
+    choices: []
+    minigameId: 
+    success: 
+    failure: 
+    endingId: 
+  - id: normal.check
+    kind: 2
+    speaker: 0
+    speakerName: 
+    text: 
+    background: {fileID: 0}
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    music: {fileID: 0}
+    musicCommand: 0
+    loopMusic: 1
+    fadeSeconds: 1
+    next: normal
+    otherwise: bad
+    condition:
+      any: 0
+      negate: 0
+      conditions:
+      - variable: 0
+        comparison: 2
+        value: 0
+      groups: []
+    changes: []
+    unlocks: []
+    choices: []
+    minigameId: 
+    success: 
+    failure: 
+    endingId: 
+  - id: bad
+    kind: 4
+    speaker: 0
+    speakerName: 
+    text: "\u7CFB\u7EDF\u6F14\u793A\u7ED3\u675F\uFF1Abad end\u3002\u6B64\u5904\u53EF\u6362\u6210\u6B63\u5F0F\u7ED3\u5C40\u5267\u60C5\u3002"
+    background: {fileID: 0}
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    music: {fileID: 0}
+    musicCommand: 0
+    loopMusic: 1
+    fadeSeconds: 1
+    next: 
+    otherwise: 
+    condition:
+      any: 0
+      negate: 0
+      conditions: []
+      groups: []
+    changes: []
+    unlocks: []
+    choices: []
+    minigameId: 
+    success: 
+    failure: 
+    endingId: demo.ending.bad
+  - id: normal
+    kind: 4
+    speaker: 0
+    speakerName: 
+    text: "\u7CFB\u7EDF\u6F14\u793A\u7ED3\u675F\uFF1Anormal end\u3002\u6B64\u5904\u53EF\u6362\u6210\u6B63\u5F0F\u7ED3\u5C40\u5267\u60C5\u3002"
+    background: {fileID: 0}
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    music: {fileID: 0}
+    musicCommand: 0
+    loopMusic: 1
+    fadeSeconds: 1
+    next: 
+    otherwise: 
+    condition:
+      any: 0
+      negate: 0
+      conditions: []
+      groups: []
+    changes: []
+    unlocks: []
+    choices: []
+    minigameId: 
+    success: 
+    failure: 
+    endingId: demo.ending.normal
+  - id: true
+    kind: 4
+    speaker: 0
+    speakerName: 
+    text: "\u7CFB\u7EDF\u6F14\u793A\u7ED3\u675F\uFF1Atrue end\u3002\u6B64\u5904\u53EF\u6362\u6210\u6B63\u5F0F\u7ED3\u5C40\u5267\u60C5\u3002"
+    background: {fileID: 0}
+    portrait: {fileID: 0}
+    voice: {fileID: 0}
+    music: {fileID: 0}
+    musicCommand: 0
+    loopMusic: 1
+    fadeSeconds: 1
+    next: 
+    otherwise: 
+    condition:
+      any: 0
+      negate: 0
+      conditions: []
+      groups: []
+    changes: []
+    unlocks: []
+    choices: []
+    minigameId: 
+    success: 
+    failure: 
+    endingId: demo.ending.true
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9db68292720593741831c7f39049bb1b, type: 3}
+  m_Name: GalgameAudioLibrary
+  m_EditorClassIdentifier: 
+  entries:
+  - id: 6b86200f1c84fa44ab506f2e607cb119
+    clip: {fileID: 8300000, guid: 6b86200f1c84fa44ab506f2e607cb119, type: 3}
+  - id: 75744416790587943b2983cb1f0ce37b
+    clip: {fileID: 8300000, guid: 75744416790587943b2983cb1f0ce37b, type: 3}
+  - id: 0d4952ce864d2694da71ce9f050e5fc7
+    clip: {fileID: 8300000, guid: 0d4952ce864d2694da71ce9f050e5fc7, type: 3}

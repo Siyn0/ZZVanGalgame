@@ -18,6 +18,7 @@ public class BlurSizeCtl_v2 : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (!clone) return;
         if (clone.material.GetFloat("_blurSizeXY") >= 0.05f)
         {
             clone.material.SetFloat("_blurSizeXY", clone.material.GetFloat("_blurSizeXY") - 0.1f);

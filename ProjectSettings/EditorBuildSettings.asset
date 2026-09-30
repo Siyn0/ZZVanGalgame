@@ -32,4 +32,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3_ChoseC_2.unity
     guid: 87f46ca74e9968c419b77762c0962c23
+  - enabled: 1
+    path: Assets/Scenes/playDemo.unity
+    guid: 3e91dd082dc363049a7b6a77380055a5
+  - enabled: 1
+    path: Assets/Scenes/dlc_DotA.unity
+    guid: 9f904ef0567c90646b12115fc58d2502
+  - enabled: 1
+    path: Assets/Scenes/NormalDemo.unity
+    guid: 65796ae267126fb409c7dc9c4b14c8ed
+  - enabled: 1
+    path: Assets/Scenes/choseDemo.unity
+    guid: ae13352e9b2afd14e8a3dfb4ea14681a
+  - enabled: 1
+    path: Assets/Scenes/ChoseDemo_Re.unity
+    guid: 36a3d5f12a8798640aa5699246c9f8b1
+  - enabled: 1
+    path: Assets/Scenes/achiDemo.unity
+    guid: a2f2229b3d279004ebde8cc435c9ea16
+  - enabled: 1
+    path: Assets/Scenes/WorkbookStory.unity
+    guid: be94015bbaa1cc141a01ff9cf5d125fa
   m_configObjects: {}

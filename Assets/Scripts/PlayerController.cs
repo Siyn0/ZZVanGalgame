@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour, ZZVan.Galgame.ISceneCheckpoint {
 
     private Rigidbody2D m_rg;
 
@@ -14,11 +14,17 @@ public class PlayerController : MonoBehaviour {
     void Start () {
 
         m_rg = gameObject.GetComponent<Rigidbody2D>();
+        if (ZZVan.Galgame.GameSession.Instance.SceneProgress.TryRestore(this, out MovementCheckpoint saved))
+        {
+            m_rg.position = saved.position;
+            m_rg.velocity = saved.velocity;
+        }
 
     }
     
     // Update is called once per frame
     void Update () {
+        if (Time.timeScale == 0 || ZZVan.Galgame.GameSession.Instance.SceneProgress.IsRestoring) return;
         //------------------Input.GetAxisRaw没有小数值，只有整数，不会产生缓动------------------
         //角色水平移动
         //按住D键，判断如果大于0，则向右开始移动
@@ -50,4 +56,6 @@ public class PlayerController : MonoBehaviour {
         }
 
     }
+    public string CaptureCheckpoint() => JsonUtility.ToJson(new MovementCheckpoint { position = m_rg.position, velocity = m_rg.velocity });
+    [System.Serializable] public sealed class MovementCheckpoint { public Vector2 position, velocity; }
 }

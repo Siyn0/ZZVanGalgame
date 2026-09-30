@@ -1,0 +1,5 @@
+{
+  "name": "ZZVan.Galgame.PlayModeTests",
+  "references": ["ZZVan.Galgame", "Unity.ugui"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}
